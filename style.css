@@ -169,6 +169,16 @@ nav {
     /* color: #0f172a; */
 }
 
+.section-subheading {
+    text-align: center;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    /* color: #0f172a; */
+}
+
+
 /* Features Grid */
 .features-grid {
     display: grid;
