@@ -16,6 +16,24 @@ body {
     background-repeat: no-repeat;
 }
 
+@font-face {
+  font-family: 'Montserrat-Regular'; /* Nom que vous utiliserez dans votre CSS */
+  src: url('/assets/fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'),
+  url('/assets/fonts/Montserrat/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Caveat Brush'; /* Nom que vous utiliserez dans votre CSS */
+  src: url('/assets/fonts/Caveat_Brush/caveatbrush-regular.woff2') format('woff2'),
+  url('/assets/fonts/Caveat_Brush/caveatbrush-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 /* Navigation */
 nav {
     position: fixed;
@@ -29,6 +47,7 @@ nav {
     align-items: center;
     z-index: 1000;
     border-bottom: 1px solid #e5e7eb;
+	font-family:"Caveat Brush", cursive;
 }
 
 .logo {
@@ -59,10 +78,11 @@ nav {
 }
 
 .btn-primary {
-    background: #281f64;
+    background: #ffc23b;
+	/*background: #281f64;*/
     /* background: #152e74; */
     background-size: cover;
-    color: white !important;
+    color: black !important;
     padding: 0.7rem 1.5rem;
     border-radius: 8px;
     text-decoration: none;
@@ -70,13 +90,17 @@ nav {
     transition: all 0.3s;
     border: none;
     cursor: pointer;
+	font-family:"Caveat Brush", cursive;
 }
 
 .btn-primary:hover {
-    background: #1d4ed8;
+    /*background: #1d4ed8;*/
+	background: #ffe67d;
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+    /*box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);*/
+    box-shadow: 0 10px 25px rgba(249, 178, 51, 0.3);
 }
+ 
 
 /* Hero Section */
 .hero {
@@ -87,15 +111,17 @@ nav {
 }
 
 .hero h1 {
+  	font-family: "Caveat Brush", cursive;
     font-size: 3.5rem;
-    font-weight: 800;
+    font-weight: 400;
     margin-bottom: 1.5rem;
     /* color: #0f172a; */
     line-height: 1.2;
 }
 
 .hero p {
-    font-size: 1.3rem;
+    font-family: "Montserrat-Regular", sans-serif;
+	font-size: 1.3rem;
     /* color: #475569; */
     max-width: 800px;
     margin: 0 auto 2.5rem;
@@ -127,6 +153,7 @@ nav {
     text-align: center;
     margin-bottom: 1rem;
     /* color: #2563eb; */
+    font-family: "Montserrat-Regular", sans-serif;
     font-size: 0.95rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -135,6 +162,7 @@ nav {
 
 .section-heading {
     text-align: center;
+    font-family: "Montserrat-Regular", sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 3rem;
