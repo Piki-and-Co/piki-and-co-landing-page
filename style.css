@@ -506,9 +506,15 @@ details[open] > summary::after {
     padding: 0.5rem 0.938rem;
 }
 
+details h3{
+	font-weight: bold;
+	margin: 0;
+	padding: 0.25rem;
+}
+
 details p {
-    margin: 0;
-    padding: 0.25rem;
+	margin: 0;
+	padding: 0.25rem;
     /* background-color: #fff; */
 }
 
