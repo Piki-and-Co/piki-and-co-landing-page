@@ -556,6 +556,7 @@ footer {
 
 .footer-socials {
 	display: flex;
+    gap: 0.5rem;
   	justify-content: flex-end; /* Aligne le contenu à droite */
   	padding: 1.25rem;
 }
