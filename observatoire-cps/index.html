@@ -7,22 +7,9 @@
     <link href="../css/style-observatoire.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="../assets/logo.ico"/>
 	<title>Piki & Co</title>
-    
-	<script>
-        document.addEventListener('DOMContentLoaded', () => {
-            window.onscroll = function() {
-                const nav = document.querySelector('.navbar');
-                if (nav && window.scrollY > 1050) {
-                    nav.classList.add('scrolled');
-                } else if (nav) {
-                    nav.classList.remove('scrolled');
-                }
-            };
-        });
-    </script>
 <!-- CMP tarteaucitron — Gestion du consentement cookies -->
-<script src="https://cdn.jsdelivr.net/npm/tarteaucitronjs@latest/tarteaucitron.js"></script>
-<script src="js/tarteaucitron-init.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/tarteaucitronjs@latest/tarteaucitron.js"></script>
+	<script src="../js/tarteaucitron-init.js"></script>
 </head>
 <body>
     <!-- Hero Section -->
@@ -43,7 +30,7 @@
 			>
 			<h1>Observatoire des compétences psychosociales</h1>
 			<p>Participez à la création du premier Observatoire National des CPS. Votre voix compte pour mieux comprendre et soutenir le développement des enfants.</p>
-			<a href="inscription/index.html" class="btn-primary" style="display: inline-block; margin-bottom: 3rem;">Répondre au querstionnaire</a>
+			<a href="#questionnaire" class="btn-primary" style="display: inline-block; margin-bottom: 3rem;">Répondre au querstionnaire</a>
 		</div>
 	</section>
    
@@ -98,7 +85,7 @@
     	</div>
 	</section>
 	
-	<section class="container" id="Le questionnaire">
+	<section class="container" id="questionnaire">
 		<h2 class="section-heading">Le questionnaire</h2>
 		<p>Administré une à deux fois par an, il permet d'observer les évolutions et d'identifier les tendances à l'échelle nationale.</p>
 		<p class="emphasized-text">Comptez environ 10 minutes.</p>

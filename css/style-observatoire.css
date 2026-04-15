@@ -64,21 +64,9 @@ nav {
 
 .navbar{
     position: fixed;
-    top: -10rem;
-    width: 100%;
-	transition: top 0.3s;
-}
-
-.navbar-visible{
-    position: fixed;
     top: 0rem;
     width: 100%;
 	transition: top 0.3s;
-}
-
-
-.navbar.scrolled{
-	top: 0;
 }
 
 .logo {
@@ -89,59 +77,6 @@ nav {
 
 .logo img{
     height: 3.75rem; 
-}
-
-.nav-links {
-    list-style: none;
-	display: flex;
-    gap: 2rem;
-    align-items: center;
-}
-
-.nav-links li{
-	position: relative;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: var(--dark-purple);
-    font-weight: 500;
-    transition: color 0.3s;
-}
-
-.nav-links.link{
-	font-size:1.25rem;
-}
-
-.nav-links a:hover {
-    color: var(--hair-blue);
-}
-
-a {
-    color: var(--hair-blue);
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color:var(--light-purple);
-  min-width: 16rem;
-  list-style: none;
-  padding: 0;
-  box-shadow: 0rem 0.5rem 1rem rgba(0,0,0,0.2);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown-content a {
-  padding: 0.75rem 1rem;
-  font-size: 1.25rem;
-}
-
-.dropdown-content a:hover {
-    color: var(--hair-blue);
 }
 
 .btn-nav {
