@@ -7,16 +7,47 @@ interface Props {
   pubDate: Date;
   tags?: string[];
   author?: string;
+  image?: string;
 }
 
-const { title, description, pubDate, tags = [], author = 'Piki & Co' } = Astro.props;
+const { title, description, pubDate, tags = [], author = 'Piki & Co', image } = Astro.props;
 
 const formattedDate = pubDate.toLocaleDateString('fr-FR', {
   year: 'numeric', month: 'long', day: 'numeric'
 });
+
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+
+const schema: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": title,
+  "description": description,
+  "datePublished": pubDate.toISOString(),
+  "url": canonicalUrl,
+  "author": {
+    "@type": "Organization",
+    "name": author,
+    "url": "https://piki-and-co.com",
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Piki & Co",
+    "url": "https://piki-and-co.com",
+    "logo": { "@type": "ImageObject", "url": "https://piki-and-co.com/assets/logo.png" },
+  },
+  "inLanguage": "fr-FR",
+};
+if (image) schema.image = new URL(image, Astro.site).href;
+
+const blogPostSchema = JSON.stringify(schema);
 ---
 
-<PikiCoLayout title={title} description={description}>
+<PikiCoLayout title={title} description={description} image={image}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={blogPostSchema} />
+  </Fragment>
+
   <div class="container section">
     <article>
       <header style="margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--pikico-border);">

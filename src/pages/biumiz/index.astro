@@ -1,11 +1,77 @@
 ---
 import BiumizLayout from '@/layouts/BiumizLayout.astro';
+
+const faqSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Les écrans, les jeux vidéo et les enfants : quelles recommandations ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pas d'écrans avant 3 ans. À partir de 3 ans, limiter à 1h maximum par jour. Choisir des contenus adaptés à la maturité cognitive et émotionnelle de l'enfant. Le jeu vidéo offre une expérience sensorielle et émotionnelle complète qui en fait un média puissant d'apprentissage, à condition d'une utilisation saine.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Quels sont les bienfaits des jeux vidéo pour les enfants ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les jeux vidéo permettent de développer : la curiosité, la créativité, la persévérance, la capacité d'élaboration de stratégie, la coopération, la prise de décision, l'attention, la résolution de problème, la littéracie numérique et le plurilinguisme.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Qu'est-ce qu'une utilisation saine des jeux vidéo ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Limiter le temps d'écran (pas d'écran avant 3 ans, 1h max consécutive ensuite), veiller à ce que des activités alternatives soient disponibles, et utiliser le jeu comme sujet de conversation et d'échange en famille.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Qu'est-ce que la santé mentale positive ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "L'OMS définit la santé comme un état de complet bien-être physique, mental et social. La santé mentale positive correspond au sentiment de bien-être général et d'épanouissement social. Elle repose sur les compétences psychosociales (CPS) de la personne.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Qu'est-ce que les compétences psychosociales (CPS) ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les CPS sont des ressources psychologiques permettant de faire face aux aléas de la vie. Elles sont centrales dans le programme de Santé Publique France et font l'objet d'actions prioritaires dans le cadre de la Grande Cause Nationale 2025-2026 sur la Santé Mentale.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Qu'est-ce qu'un jeu immersif ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un jeu immersif est un jeu dans lequel le joueur a l'impression de faire partie du monde virtuel. Cette capacité à immerger le joueur en fait un média puissant d'apprentissage : concentration, émotions, expérience sensorielle complète.",
+      },
+    },
+    {
+      "@type": "Question",
+      "name": "Qu'est-ce qu'un jeu engageant ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un jeu engageant maintient l'intérêt et la motivation sur le long terme. Il repose sur un équilibre entre défi et compétences, et répond à trois besoins : l'autonomie, le gain de compétences et l'identification ou l'appartenance.",
+      },
+    },
+  ],
+});
 ---
 
 <BiumizLayout
-  title="Biumiz"
-  description="Jouer, s'éveiller, s'accomplir. Accompagnez votre enfant dans le développement des compétences indispensables à sa future vie d'adulte."
+  title="L'app qui fait grandir par le jeu"
+  description="Biumiz accompagne les enfants de 4 à 10 ans dans le développement des compétences psychosociales via des jeux vidéo immersifs et engageants."
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={faqSchema} />
+  </Fragment>
 
   <!-- Hero -->
   <section class="hero">
