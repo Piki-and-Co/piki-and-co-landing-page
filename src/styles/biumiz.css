@@ -257,8 +257,22 @@ details h3 { font-weight: bold; padding-left: 2rem; }
   justify-items: center;
   padding: 1.5rem 5%;
 }
-.footer-socials { display: flex; gap: 0.5rem; justify-content: flex-end; }
-.footer-socials img { height: 2.5rem; }
+.footer-socials {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.footer-socials a {
+  color: rgba(255,255,255,0.6);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-socials a:hover { color: var(--dark-yellow); text-decoration: none; }
 
 /* Responsive */
 @media (max-width: 768px) {

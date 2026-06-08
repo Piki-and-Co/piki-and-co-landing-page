@@ -27,6 +27,11 @@ const orgSchema = JSON.stringify({
   "description": "Piki & Co développe des outils éducatifs pour accompagner les enfants dans l'acquisition des compétences psychosociales (CPS) via une utilisation saine du numérique.",
   "foundingLocation": { "@type": "Place", "name": "Strasbourg, France" },
   "knowsAbout": ["Compétences psychosociales", "Santé mentale positive", "Jeux vidéo éducatifs", "Bilinguisme", "EdTech"],
+  "sameAs": [
+    "https://www.tiktok.com/@piki.and.co",
+    "https://www.instagram.com/piki.and.co/",
+    "https://www.facebook.com/61588273838732"
+  ],
 });
 ---
 
@@ -73,7 +78,7 @@ const orgSchema = JSON.stringify({
   <header>
     <nav class="nav">
       <a href="/" class="logo">
-        <img src="/assets/logo.png" alt="Piki & Co" height="48" />
+        <img src="/assets/logo.png" alt="Piki & Co" width="48" height="48" loading="eager" />
       </a>
       <ul class="nav-links">
         <li><a href="/#mission">Notre mission</a></li>
@@ -90,6 +95,11 @@ const orgSchema = JSON.stringify({
 
   <footer class="footer">
     <p>&copy; {new Date().getFullYear()} Piki & Co — Tous droits réservés</p>
+    <nav class="footer-socials" aria-label="Réseaux sociaux">
+      <a href="https://www.tiktok.com/@piki.and.co" target="_blank" rel="noopener noreferrer">TikTok</a>
+      <a href="https://www.instagram.com/piki.and.co/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.facebook.com/61588273838732" target="_blank" rel="noopener noreferrer">Facebook</a>
+    </nav>
     <p><a href="/legal/mention">Mentions légales</a> · <a href="/legal/privacy">Politique de confidentialité</a> · <a href="/legal/cookies">Cookies</a></p>
   </footer>
 </body>

@@ -10,7 +10,7 @@
  */
 
 tarteaucitron.init({
-  "privacyUrl":        "/legal/cookies.html",    /* Lien vers la politique cookies */
+  "privacyUrl":        "/legal/cookies",    /* Lien vers la politique cookies */
   "bodyPosition":      "bottom",
   "hashtag":           "#cookies",
   "cookieName":        "tarteaucitron",
@@ -33,7 +33,7 @@ tarteaucitron.init({
   "useExternalCss":    false,                   /* Utiliser le CSS intégré à tarteaucitron */
   "useExternalJs":     false,
 
-  "readmoreLink":      "/legal/cookies.html",    /* Lien "en savoir plus" */
+  "readmoreLink":      "/legal/cookies",    /* Lien "en savoir plus" */
 
   "mandatory":         true,                    /* Afficher la catégorie "cookies nécessaires" */
   "mandatoryCta":      true,
@@ -48,7 +48,7 @@ tarteaucitron.services.matomoCustom = {
   "key":         "matomoCustom",
   "type":        "analytic",
   "name":        "Matomo (mesure d'audience)",
-  "uri":         "/legal/cookies.html",
+  "uri":         "/legal/cookies",
   "needConsent": true,
   "cookies":     ["_pk_id", "_pk_ses", "_pk_ref", "mtm_consent", "mtm_cookie_consent", "SRVGROUP"],
 
