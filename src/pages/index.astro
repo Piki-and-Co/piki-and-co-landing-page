@@ -1,6 +1,8 @@
 ---
 import PikiCoLayout from '@/layouts/PikiCoLayout.astro';
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import logoImage from '../assets/logo.png';
 
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
@@ -18,9 +20,9 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
         <p class="hero-eyebrow">Pour les enfants de 4 à 10 ans</p>
         <h1>Jouer, s'éveiller,<br />s'accomplir.</h1>
         <p class="hero-lead">
-          Piki&nbsp;&amp;&nbsp;Co développe des outils éducatifs qui aident les enfants
-          à construire les compétences psychosociales — socle de leur santé mentale
-          et de leur épanouissement futur.
+		En collaboration avec la recherche académique française, Piki&nbsp;&amp;&nbsp;Co développe des jeux
+		narratifs, immersifs et multi-supports pour vous accompagner dans le développement des compétences 
+		psychosociales de votre enfant, socle de sa santé mentale et émotionnelle tout au long de sa vie.
         </p>
         <div class="hero-ctas">
           <a href="/biumiz" class="btn btn-primary">Découvrir Biumiz</a>
@@ -28,14 +30,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
         </div>
       </div>
       <div class="hero-visual">
-        <img
-          src="/assets/logo.png"
-          alt="Piki & Co"
-          class="hero-logo"
-          width="220"
-          height="220"
-          loading="eager"
-        />
+		<Image src={logoImage} alt="Piki & Co" width={309} height={220} loading="eager" format="webp"/>
       </div>
     </div>
   </section>

@@ -13,7 +13,8 @@
 :root {
   /* Couleurs Piki & Co (sobre, dérivées de la palette Biumiz) */
   --pikico-bg:          #FFFFFF;
-  --pikico-bg-tinted:   #F7F5FF;   /* blanc légèrement violacé */
+  --pikico-bg-tinted:   #E4D7E8;   /* blanc légèrement violacé */
+  --pikico-bg-tinted2:  #F7F5FF;   /* blanc légèrement violacé */
   --pikico-title:       #1E1040;   /* violet très sombre */
   --pikico-text:        #374151;   /* gris foncé lisible */
   --pikico-accent:      #6B46A0;   /* violet médium */
