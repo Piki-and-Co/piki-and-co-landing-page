@@ -99,7 +99,8 @@ const faqSchema = JSON.stringify({
 	  </div>
       <div class="hero-image-container">
 		  <div class="hero-image-wrapper">
-			<Image src={imgLandingPage} alt="Rejoingez Biumiz dans ses aventures !" width={8268} height={5374} loading="eager" format="webp"/>
+			<Image src={imgLandingPage} alt="Rejoingez Biumiz dans ses aventures !" 
+			width={8268} height={5374} loading="eager" format="webp"/>
 		  </div>
       </div>
     </div>
@@ -110,7 +111,8 @@ const faqSchema = JSON.stringify({
   <section class="section" id="CPS">
 	<div class="container">
       <p class="section-eyebrow">Un jeu qui fait bien grandir</p>
-	  <h2 class="section-heading">Les compétences psychosociales (CPS) : le socle de <span class="highlight" style="display:block;">la santé mentale positive</span></h2>
+	  <h2 class="section-heading">Les compétences psychosociales (CPS) : le socle de 
+	  <span class="highlight" style="display:block;">la santé mentale positive</span></h2>
       <p class="section-lead">
  		Ce sont les compétences de vie ou compétences humaines qui permettent à votre enfant 
 		de faire face aux défis de l'existence, de maintenir son équilibre émotionnel et de construire 
@@ -135,7 +137,9 @@ const faqSchema = JSON.stringify({
 	  </div>
 	  <footer class="impact-banner">
 	  	<p class="impact-text">
-			Lorsqu'elles sont bien développées, ces compétences <strong>réduisent l'anxiété, préviennent la dépression, améliorent le climat scolaire et favorisent la réussite</strong> (Santé Publique France, 2021 ; IREPS Pays de la Loire, 2026).</p>
+			Lorsqu'elles sont bien développées, ces compétences <strong>réduisent l'anxiété, 
+			préviennent la dépression, améliorent le climat scolaire et favorisent la réussite</strong> 
+			(Santé Publique France, 2021 ; IREPS Pays de la Loire, 2026).</p>
 		</footer>
     </div>
   </section>
@@ -171,13 +175,16 @@ const faqSchema = JSON.stringify({
       <h2 class="section-heading">Nos partenaires</h2>
 		 <div class="partners-grid">
 			 <div class="partner-card">
-				<Image src={conectus} alt="SATT Conectus d'Alsace" width={6184} height={2009} loading="eager" format="webp"/>
+				<Image src={conectus} alt="SATT Conectus d'Alsace" 
+				width={6184} height={2009} loading="eager" format="webp"/>
 			 </div>
 			 <div class="partner-card">
-				<Image src={cnrs} alt="Centre Nationale de la Recherche Scientifique" width={705} height={705} loading="eager" format="webp"/>
+				<Image src={cnrs} alt="Centre Nationale de la Recherche Scientifique" 
+				width={705} height={705} loading="eager" format="webp"/>
 			 </div>
 			 <div class="partner-card">
-				<Image src={unistra} alt="Université de Strasbourg" width={3310} height={1193} loading="eager" format="webp"/>
+				<Image src={unistra} alt="Université de Strasbourg" 
+				width={3310} height={1193} loading="eager" format="webp"/>
 			 </div>
 		</div>
     </div>
@@ -300,7 +307,6 @@ const faqSchema = JSON.stringify({
 <style>
 /* Base de la section avec le violet foncé d'origine */
   .hero-section {
-	  color: var(--white);
 	  padding: 4rem 2rem;
 	  overflow: hidden;
   }
@@ -347,7 +353,6 @@ const faqSchema = JSON.stringify({
     }
   }
 
-  /* Application de votre règle : Grand mais pas gras/épais */
   .hero-description {
     font-size: 1.125rem;
     font-weight: 400; /* Épaisseur normale/fine */
@@ -362,7 +367,7 @@ const faqSchema = JSON.stringify({
   }
 
   .hero-image-wrapper {
-    position: relative; /* Indispensable pour caler le badge par-dessus */
+	position: relative;
     width: 100%;
     max-width: 180rem;
   }
@@ -370,7 +375,7 @@ const faqSchema = JSON.stringify({
   .hero-image-wrapper img {
     width: 100%;
     height: auto;
-    border-radius: 1.25rem; /* Coins bien arrondis comme sur la maquette */
+	border-radius: 1.25rem;
     display: block;
   }
   
@@ -381,13 +386,22 @@ const faqSchema = JSON.stringify({
     letter-spacing: 0.1em;
     margin-bottom: 0.75rem;
   }
+
+  .section-heading {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+
   .section-lead {
     text-align: center;
     max-width: 44rem;
     margin: 0 auto 3rem;
-    color: var(--pikico-muted);
+	/*color: var(--pikico-muted);*/
     font-size: 1.05rem;
     line-height: 1.8;
+    opacity: 0.9;
   }
 
   /* CPS cards */
@@ -395,7 +409,9 @@ const faqSchema = JSON.stringify({
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     gap: 1.5rem;
+    margin-bottom: 3rem;
   }
+
   .cps-card {
     background: white;
     border: 2px solid var(--light-purple);
@@ -403,10 +419,25 @@ const faqSchema = JSON.stringify({
     padding: 2rem;
     text-align: center;
 	box-shadow: 0 10px 30px -10px rgba(18, 19, 44, 0.3);
+    color: var(--dark-purple); /* Assure la lisibilité du texte dans la carte */
   }
-  .cps-icon { font-size: 2.5rem; display: block; margin-bottom: 1rem; }
-  .cps-card h3 { margin-bottom: 0.5rem; font-size: 1.1rem; }
-  .cps-card p { font-size: 0.9rem; color: var(--pikico-muted); }
+
+  .cps-icon { 
+	font-size: 2.5rem; 
+	display: block; 
+	margin-bottom: 1rem; 
+  }
+
+.cps-card h3 { 
+	margin-bottom: 0.5rem;
+	font-size: 1.1rem;
+    color: var(--dark-purple);
+}
+
+.cps-card p { 
+	font-size: 0.9rem; 
+	/*color: var(--pikico-muted);*/
+}
   
   .impact-banner {
     background-color: var(--light-purple);
@@ -420,10 +451,98 @@ const faqSchema = JSON.stringify({
   .impact-text {
     font-size: 0.95rem;
     line-height: 1.5;
+    color: var(--dark-purple);
   }
 
-  .impact-text strong {
+  /*  .impact-text strong {
     color: var(--star-pink);
+  }*/
+ 
+.partners-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); 
+    gap: 2rem; 
+    align-items: center; 
+    justify-items: center;
+    margin-top: 3rem;
+  }
+  .partner-card img { 
+    max-width: 10rem; 
+    height: auto; 
+    opacity: 0.85; 
+    transition: opacity 0.3s; 
+  }
+  .partner-card img:hover { 
+    opacity: 1; 
+  }
+  .faq { 
+    padding: 3rem 0; 
+  }
+  
+  .section-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: var(--hair-blue);
+    margin-bottom: 0.75rem;
   }
 
+  /* Le parent Accordéon */
+  details.faq-parent { 
+    margin-bottom: 1rem; 
+    overflow: hidden; 
+    background-color: var(--light-purple); /* Donne un fond pour faire ressortir le texte */
+    border-radius: 0.5rem;
+    text-align: left;
+  }
+  
+  summary { 
+    padding: 1rem 1.5rem; 
+    cursor: pointer; 
+    font-weight: bold; 
+    transition: background-color 0.3s; 
+    color: var(--dark-purple); /* Texte sombre lisible */
+    list-style: none;
+  }
+  summary::-webkit-details-marker { display: none; } /* Enleve la flèche native */
+  summary::after { content: "+"; float: right; }
+  details[open] > summary::after { content: "−"; }
+
+  /* CIBLAGE PRÉCIS : On force la couleur sombre pour qu'elle ne soit plus blanche */
+  details.faq-parent p, 
+  details.faq-parent ul, 
+  details.faq-parent h3 { 
+    padding: 0.5rem 1.5rem; 
+    color: var(--dark-purple) !important; /* Force l'écriture en couleur lisible */
+  }
+  
+  details.faq-parent ul {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .quoting { 
+    font-size: 0.8rem; 
+    opacity: 0.7;
+    font-style: italic;
+  }
+
+  .faq-child { 
+    margin-left: 1.5rem; 
+    margin-top: 0.5rem; 
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.25rem;
+  }
+  .faq-child > summary { font-size: 0.95rem; font-weight: 600; }
+
+  .cta-section { 
+    padding: 5rem 5%; 
+    text-align: center; 
+  }
+  .cta-section h2 { 
+    font-family: var(--font-display); 
+    font-size: clamp(1.8rem, 4vw, 2.5rem); 
+    margin-bottom: 2rem; 
+  }
 </style>
