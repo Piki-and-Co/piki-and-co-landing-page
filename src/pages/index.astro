@@ -15,10 +15,47 @@ import cnrs from '@assets/LOGO_CNRS_HD.webp';
 import lesDeepTech from 'assets/LesDeeptech_Blanc.webp';
 import unistra from '@assets/Unistra2_HD_FondBlanc.webp';
 
+import photoAmandine from '@assets/EmoteBiumiz.webp';
+import photoKevin from '@assets/EmoteTom.webp';
+import photoOlivier from '@assets/EmoteTom.webp';
+import photoLaurence from '@assets/EmoteBiumiz.webp';
 
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 3);
+  
+const team = [
+	{
+		prenom: "Amandine",
+		nom: "Piguel",
+		poste: "Présidente (CEO) & Fondatrice",
+		description: "Définit et pilote la stratégie de développement de l'entreprise. ",
+		photo: photoAmandine
+	},
+
+	{
+		prenom: "Laurence",
+		nom: "Schmoll",
+		poste: "Chercheuse & Fondatrice",
+		description: "Spécialiste en didactique des langues et conception de jeux sérieux, elle definit la stratégie d'innovation en sciences humaines.",
+		photo: photoLaurence
+	},
+	{
+		prenom: "Kevin",
+		nom: "Blenner",
+		poste: "Directeur technique (CTO)",
+		description: "Ingénieur en développement logiciel expérimenté, il définit et pilot la stratégie technologique.",
+		photo: photoKevin
+		},
+	{
+		prenom: "Olivier",
+		nom: "Luet",
+		poste: "Directeur marketing (CMO)",
+		description: " responsable du développement commercial secteur B2B & éducatif",
+		photo: photoOlivier
+	}
+];
+
 ---
 
 <PikiCoLayout
@@ -214,6 +251,31 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
     </div>
   </section>
 
+  <section class="section " id="Equipe">
+    <div class="container" style="text-align: center;">
+      <p class="section-eyebrow">Nous nous engageons à vos côtés</p>
+	  <h2 class="section-heading-pikico">L'équipe</h2>
+		<div class="team-list">
+			{team.map((member) => (
+			<div class="team-card">
+				<div class="team-photo-wrapper">
+					<div class="photo-disk">
+						<Image src={member.photo} alt={`${member.prenom} ${member.nom}`}
+						width={300} height={300} format="webp"/>
+					</div>
+				</div>
+
+				<div class="team-info">
+					<h3 class="team-name">{member.prenom} <span>{member.nom}</span></h3>
+					<p class="team-role">{member.poste}</p>
+					<p class="team-description">{member.description}</p>
+				</div>
+			</div>
+			))}
+		</div>
+    </div>
+  </section>
+
   <!-- CTA final -->
   <section class="section cta-final">
     <div class="container" style="text-align: center;">
@@ -349,6 +411,106 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
     height: auto;
     border-radius: 1rem;
   }
+  
+  .team-list {
+    display: grid;
+    grid-template-columns: 1fr; /* Une carte par ligne */
+    gap: 1.5rem;
+    max-width: 55rem;
+    margin: 3rem auto 0;
+  	}
+
+  @media (min-width: 64rem) {
+    .team-list {
+        grid-template-columns: 1fr 1fr; /* Deux cartes par ligne sur grand écran */
+        max-width: 65rem;
+    }
+  }
+
+	/* --- LA CARTE D'IDENTITÉ --- */
+	.team-card {
+		background: var(--light-purple);
+		border-radius: 1.5rem;
+		padding: 1rem;
+		display: flex;
+		flex-direction: column; /* Empilé par défaut sur mobile */
+		align-items: center;
+		gap: 1rem;
+		text-align: center;
+		transition: transform 0.3s ease;
+		box-shadow: 0 10px 25px -5px rgba(18, 19, 44, 0.3);
+	}
+
+	@media (min-width: 48rem) {
+	.team-card {
+			flex-direction: row; /* En colonnes (Photo | Texte) sur PC */
+			text-align: left;
+			padding: 1.75rem;
+		}
+	}
+
+	/* --- LE DISQUE PHOTO --- */
+	.team-photo-wrapper {
+		flex-shrink: 0;
+	}
+
+	.photo-disk {
+		width: 6rem;
+		height: 6rem;
+		border-radius: 50%; /* Forme de disque parfait */
+		overflow: hidden;
+		border: 0.25rem solid var(--white);
+		box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+	}
+
+	@media (min-width: 48rem) {
+	.photo-disk {
+			width: 7.5rem;
+			height: 7.5rem;
+		}
+	}
+
+	.photo-disk img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* L'image remplit le disque sans déformation */
+	}
+
+	/* --- LES TEXTES --- */
+	.team-info {
+		display: flex;
+		flex-direction: column;
+		gap: 0rem;
+	}
+
+	.team-name {
+		font-family: var(--font-display);
+		font-size: 1.5rem;
+		color: var(--dark-purple);
+		margin: 0;
+		line-height: 1;
+	}
+
+	.team-name span {
+		color: var(--pikico-accent); /* Met en valeur le nom de famille */
+	}
+
+	.team-role {
+		font-size: 1rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: var(--hair-blue);
+		margin-bottom: 0.2rem;
+	}
+
+	.team-description {
+		font-size: 1rem;
+		line-height: 1.5;
+		color: var(--dark-purple);
+		opacity: 0.9;
+		margin: 0;
+	}
 
   /* CTA final */
   .cta-final { 
