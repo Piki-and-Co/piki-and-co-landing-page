@@ -42,6 +42,20 @@ const ogImage = image
   ? new URL(image, Astro.site).href
   : new URL('/assets/logo.png', Astro.site).href;
 
+const websiteSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://piki-and-co.com",
+  "name": "Piki & Co",
+  "description": "Piki & Co développe des outils éducatifs pour accompagner les enfants dans l'acquisition des compétences psychosociales via une utilisation saine du numérique.",
+  "inLanguage": "fr-FR",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Piki & Co",
+    "url": "https://piki-and-co.com",
+  },
+});
+
 const orgSchema = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -90,6 +104,7 @@ const orgSchema = JSON.stringify({
   <meta name="twitter:image" content={ogImage} />
 
   <!-- JSON-LD -->
+  <script type="application/ld+json" set:html={websiteSchema} />
   <script type="application/ld+json" set:html={orgSchema} />
   {breadcrumbSchema && <script type="application/ld+json" set:html={breadcrumbSchema} />}
 
