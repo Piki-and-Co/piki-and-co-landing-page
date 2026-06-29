@@ -124,7 +124,7 @@ strong {
 /* Nav Biumiz */
 .nav {
 	background: var(--light-purple);
-	padding: 0 5%;
+	padding: 0 2%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -134,6 +134,7 @@ strong {
 	top: 0;
     z-index: 100;
 }
+
 .menu-toggle {
 	display: flex;
 	flex-direction: column;
@@ -150,6 +151,18 @@ strong {
 	background-color: var(--dark-purple);
 	border-radius: 2px;
 	transition: all 0.3s ease;
+}
+
+.menu-toggle.active .bar:nth-child(1) {
+	transform: translateY(9px) rotate(45deg);
+}
+
+.menu-toggle.active .bar:nth-child(2) {
+	opacity: 0; /* Cache la barre du milieu */
+}
+
+.menu-toggle.active .bar:nth-child(3) {
+	transform: translateY(-9px) rotate(-45deg);
 }
 
 .nav-menu {
@@ -197,6 +210,7 @@ strong {
 		width: auto;
 		padding: 0;
 		box-shadow: none;
+		margin-left: auto;
 	}
 
 	.nav-links {

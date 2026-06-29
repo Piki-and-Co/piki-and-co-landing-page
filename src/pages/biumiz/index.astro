@@ -119,11 +119,11 @@ const IndexFaqSchema = JSON.stringify({
 		>
 
 
-<Fragment slot="head">
+<!--Fragment slot="head">
     <script type="application/ld+json" set:html={IndexFaqSchema}/>
   </Fragment>
 
-<!-- Hero -->
+	<!-- Hero -->
 	<section class="section section--tinted hero-section">
 		<div class="hero-container">
 			<div class="hero-content">
@@ -139,7 +139,10 @@ const IndexFaqSchema = JSON.stringify({
 					votre enfant developpe ses compétences humaines en apprenant à communiquer en anglais,
 					tout en s'amusant en famille ou en classe !
 				</p>
+				<div class="hero-ctas">
+					<a href="/inscription" class="btn btn-primary">S'inscrire !</a>
 				</div>
+			</div>
 				<div class="hero-image-container">
 					<div class="hero-image-wrapper">
 						<Image src={imgLandingPage} alt="Rejoingez Biumiz dans ses aventures !" 
@@ -280,6 +283,12 @@ const IndexFaqSchema = JSON.stringify({
 		.hero-container {
 			grid-template-columns: 0.9fr 1.1fr; /* La colonne de texte est légèrement plus large */
 		}
+	}
+
+	.hero-ctas { 
+		display: flex; 
+		gap: 1rem; 
+		flex-wrap: wrap; 
 	}
 
 	/* Éléments de gauche */
