@@ -7,6 +7,7 @@ tags: ["apprentissage", "langues", "compétences psychosociales"]
 draft: false
 image: "/assets/blog/IllustrationChapt1.png"
 ---
+![bien plus que des mots](./IllustrationChapt1.png)
 ## Bien plus que des mots, un Atout pour la Vie
 Apprendre une langue étrangère est souvent perçu comme l'acquisition d'un simple outil de traduction. Pourtant, les recherches montrent que le bilinguisme et l'exposition aux langues remodèlent profondément notre esprit, influençant nos capacités cognitives, notre équilibre émotionnel et, surtout, notre manière d'interagir avec les autres[^1]. 
 
