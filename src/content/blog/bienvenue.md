@@ -1,7 +1,7 @@
 ---
 title: "Bienvenue sur le blog Piki & Co"
 description: "Découvrez pourquoi nous avons créé cet espace pour partager notre vision du jeu, de l'apprentissage et des compétences psychosociales."
-pubDate: 2026-06-07
+pubDate: 2026-05-30
 author: "L'équipe Piki & Co"
 tags: ["équipe", "mission"]
 ---
