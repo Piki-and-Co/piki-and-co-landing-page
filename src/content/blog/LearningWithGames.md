@@ -5,7 +5,7 @@ pubDate: 2026-06-01
 author: "L'équipe Piki & Co"
 tags: ["jeu", "apprentissage", "science", "biumiz"]
 draft: false
-image: "/assets/blog/mon-article-cover.jpg"  # optionnel — utilisé pour l'OG image
+image: "/assets/blog/BiumizAccueil.png"
 ---
 ## Le jeu, un vecteur d'apprentissage puissant
 Avez-vous déjà remarqué à quel point votre enfant, ou même vous, peut rester concentré des heures sur un défi dans un jeu ?
@@ -36,9 +36,9 @@ En engageant le ressenti et l'émotion, le jeu permet une structuration des conn
 
 Jouer va bien au delà du moment de détente, c'est vivre une expérience qui nous transforme.
 
-[^1] Craft, J. (2004). A review of what video games have to teach us about learning and literacy. Curriculum Inquiry, 34(4). (Note : Il s'agit de la recension critique officielle de l'ouvrage de J. P. Gee).
-[^2] Gee, J. P. (2003). What video games have to teach us about learning and literacy. Palgrave Macmillan / Information Technology Services.
-[^3] Shaheen, A., Whitehead, L., & Fotaris, P. (2025). Neuroplastic reflective game design: A framework bridging neuroscience and game-based learning. In Proceedings of the International Conference on Game-Based Learning.
-[^4] Bavelier, D. (2019). Leveraging video games to promote brain plasticity and learning [Laureate Lecture]. Klaus J. Jacobs Research Prize, Jacobs Foundation.
-[^5] Gee, J. P. (2003). What video games have to teach us about learning and literacy. Blog da UFES. Repéré à https://blog.ufes.br/
-[^6] Greenfield, P. M. (1994). Les jeux vidéo comme instruments de socialisation cognitive. Greenfield Laboratory for Culture and Human Development, University of California, Los Angeles (UCLA).
+[^1]: Craft, J. (2004). A review of what video games have to teach us about learning and literacy. Curriculum Inquiry, 34(4). (Note : Il s'agit de la recension critique officielle de l'ouvrage de J. P. Gee).
+[^2]: Gee, J. P. (2003). What video games have to teach us about learning and literacy. Palgrave Macmillan / Information Technology Services.
+[^3]: Shaheen, A., Whitehead, L., & Fotaris, P. (2025). Neuroplastic reflective game design: A framework bridging neuroscience and game-based learning. In Proceedings of the International Conference on Game-Based Learning.
+[^4]: Bavelier, D. (2019). Leveraging video games to promote brain plasticity and learning [Laureate Lecture]. Klaus J. Jacobs Research Prize, Jacobs Foundation.
+[^5]: Gee, J. P. (2003). What video games have to teach us about learning and literacy. Blog da UFES. Repéré à https://blog.ufes.br/
+[^6]: Greenfield, P. M. (1994). Les jeux vidéo comme instruments de socialisation cognitive. Greenfield Laboratory for Culture and Human Development, University of California, Los Angeles (UCLA).
