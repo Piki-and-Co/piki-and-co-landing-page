@@ -1,5 +1,5 @@
 ---
-title: "Les écrans, les jeux vidéo et les enfants : recommandations et points d'attention"
+title: "Les écrans, les jeux vidéo et les enfants"
 description: "Le jeu vidéo est un objet culturel à partager, bien utilisé il devient un média puissant d'apprentissage et un vecteur de création de lien"
 pubDate: 2026-06-15
 author: "L'équipe Piki & Co"
@@ -14,7 +14,7 @@ image: "parents-teaching-girls-play-with-joystick.jpg"
 Le jeu vidéo offre aux joueurs et joueuses une expérience complète, sensorielle et émotionnelle, ce qui en fait un média puissant d'apprentissage[^1].
 Par ailleurs, au même titre que le cinéma ou la littérature, le jeu vidéo est un objet culturel à partager et constitue un support de diffusion d'idées, de sensibilisation, de réflexion et de débats.
 
-## Quelques recommandations et points d'attention
+## Recommandations et points d'attention
 
 Toutefois, pour que cette expérience reste bénéfique, il est essentiel de suivre certains repères de santé publique. Issus de différents documents officiels, voici quelques points clés à retenir[^2]:
 1. **Pas d'écrans avant 3 ans** : Les spécialistes soulignent que le très jeune enfant a besoin d'interagir avec le monde réel en trois dimensions pour se développer.
