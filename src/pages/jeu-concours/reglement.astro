@@ -1,8 +1,8 @@
 ---
-import BiumizLayout from '@/layouts/BiumizLayout.astro';
+import PikiCoLayout from '@/layouts/PikiCoLayout.astro';
 ---
 
-<BiumizLayout
+<PikiCoLayout
   title="Réglement du jeu concours Biumiz"
   description="Participez à notre jeu concours et tentez de gagner des abonnements à Biumiz !"
 >
@@ -120,15 +120,14 @@ import BiumizLayout from '@/layouts/BiumizLayout.astro';
 
 	</div>
 </section>
-</BiumizLayout>
+</PikiCoLayout>
 <style>
-	.section { 
-		background: linear-gradient(to bottom, var(--biumiz-bg-start), var(--biumiz-bg-end)) !important;
-		color: var(--white) !important;
+	.section {
+		background: var(--pikico-bg-tinted);
 	}
 
 	.article h1{
-		padding: 2rem 0; 
+		padding: 2rem 0;
 	}
 
 	.article h2{
