@@ -1,38 +1,310 @@
 ---
-import BiumizLayout from '@/layouts/BiumizLayout.astro';
+import PikiCoLayout from '@/layouts/PikiCoLayout.astro';
 ---
 
-<BiumizLayout
-  title="Participation au jeu concours"
+<PikiCoLayout
+  title="Participation au jeu concours Biumiz"
   description="Participez à notre jeu concours et tentez de gagner des abonnements à Biumiz !"
+  breadcrumbs={[{ name: 'Jeu concours', href: '/jeu-concours' }]}
   >
-  <section class="section" id="bulletin">
-	  <div class="container">
-		  <h2>Inscription au jeu concours</h2>
-		  <p>En renseignant ce formulaire, je participe au jeu concours organisé par Piki&nbsp;&amp;&nbsp;Co dans le cadre de la 
-		  révélation du prototype du jeu Biumiz à l'automne 2026.</p>
-		  <p>Les informations collectées, à savoir mon nom, mon prénom, mon adresse e-mail et, de manière facultative, mon 
-		  numéro de téléphone, sont utilisées uniquement pour gérer ma participation à ce jeu concours, être contacté·e pour 
-		  la remise du lot et recevoir des actualités de Piki&nbsp;&amp;&nbsp;Co autour de Biumiz, de l’éducation, 
-		  de la parentalité et des compétences humaines.</p>
-		  <p>Les données sont destinées à Piki&nbsp;&amp;&nbsp;Co et ne seront pas vendues à des tiers. Elles seront 
-		  conservées pour la durée nécessaire à l’organisation du jeu concours, puis supprimées, sauf consentement 
-		  spécifique de ma part pour recevoir les communications de Piki&nbsp;&amp;&nbsp;Co.</p>
-		  <p>Conformément au Règlement Général sur la Protection des Données, je peux demander l’accès, la rectification 
-		  ou la suppression de mes données à tout moment en contactant Piki&nbsp;&amp;&nbsp;Co à l’adresse suivante :</p>
-		  <p><a href="mailto:contact@piki-and-co.com">contact@piki-and-co.com</a></p>
-	  </div>
+  <Fragment slot="head">
+    <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css" />
+    <style>
+      /* Surcharge styles Brevo pour intégration */
+      input.input { width: unset; }
+      input.input-text {
+        width: 100%;
+        padding: 0.4rem;
+      }
+      .entry__error--primary {
+        font-size: 16px;
+        text-align: left;
+        font-family: Helvetica, sans-serif;
+        color: #661d1d;
+        background-color: #ffeded;
+        border-radius: 3px;
+        border-color: #ff4949;
+      }
+      #sib-container {
+        max-width: 36rem;
+        margin: 0 auto;
+        background: #FFFFFF;
+        border: 1px solid var(--pikico-border);
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: 0 12px 30px rgba(107, 70, 160, 0.1);
+      }
+      #form-title p {
+        font-family: var(--font-display);
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: var(--pikico-title);
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+      .explicative-text p {
+        color: var(--pikico-muted);
+        text-align: center;
+        margin-bottom: 1.5rem;
+        line-height: 1.6;
+      }
+      .sib-form-block label { color: var(--pikico-text); }
+      .sib-sms-field .entry__field { width: 100%; }
+      .sib-sms-input-wrapper { display: flex; gap: 0.5rem; }
+      .sib-sms-input-wrapper select { padding: 0.4rem; }
+      #sib-form button[type="submit"] {
+        background: var(--pikico-cta);
+        color: #1E1040;
+        font-family: var(--font-display);
+        font-size: 1.1rem;
+        font-weight: 700;
+        padding: 0.75rem 2rem;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        width: 100%;
+        margin-top: 0.5rem;
+        transition: background 0.2s;
+      }
+      #sib-form button[type="submit"]:hover { background: var(--pikico-cta-hover); }
+    </style>
+  </Fragment>
 
+  <section class="section" id="bulletin">
+    <div class="container">
+      <h1>Inscription au jeu concours Biumiz</h1>
+      <p>
+        En renseignant ce formulaire, je participe au jeu concours organisé par Piki&nbsp;&amp;&nbsp;Co dans le
+        cadre de la révélation du prototype du jeu Biumiz à l'automne 2026.
+      </p>
+      <p>
+        <a href="/jeu-concours/reglement">Consultez le règlement complet du jeu concours</a> pour connaître les
+        conditions de participation, les dotations et les modalités du tirage au sort.
+      </p>
+
+      <div class="rgpd-box">
+        <h2>Vos données personnelles, en toute transparence</h2>
+        <p>
+          Les informations collectées, à savoir mon nom, mon prénom, mon adresse e-mail et, de manière facultative,
+          mon numéro de téléphone, sont utilisées uniquement pour gérer ma participation à ce jeu concours, être
+          contacté·e pour la remise du lot et recevoir des actualités de Piki&nbsp;&amp;&nbsp;Co autour de Biumiz,
+          de l'éducation, de la parentalité et des compétences humaines.
+        </p>
+        <p>
+          Les données sont destinées à Piki&nbsp;&amp;&nbsp;Co et ne seront pas vendues à des tiers. Elles seront
+          conservées pour la durée nécessaire à l'organisation du jeu concours, puis supprimées, sauf consentement
+          spécifique de ma part pour recevoir les communications de Piki&nbsp;&amp;&nbsp;Co.
+        </p>
+        <p>
+          Conformément au Règlement Général sur la Protection des Données, je peux demander l'accès, la
+          rectification ou la suppression de mes données à tout moment en contactant Piki&nbsp;&amp;&nbsp;Co à
+          l'adresse suivante&nbsp;:
+          <a href="mailto:contact@piki-and-co.com">contact@piki-and-co.com</a>
+        </p>
+      </div>
+    </div>
   </section>
-</BiumizLayout>
+
+  <section class="section section--tinted" style="padding: 3rem 5% 5rem;">
+    <div id="sib-form-container" class="container" style="width: 100%; max-width: 40rem;">
+
+      <div id="error-message" class="sib-form-message-panel" style="display:none;">
+        <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+          <span class="sib-form-message-panel__inner-text">
+            Hmmm, il semble qu'il y ait eu un problème. Nous n'avons pas pu enregistrer votre participation.
+          </span>
+        </div>
+      </div>
+
+      <div id="success-message" class="sib-form-message-panel" style="display:none;">
+        <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+          <span class="sib-form-message-panel__inner-text">Merci, votre participation a bien été enregistrée !</span>
+        </div>
+      </div>
+
+      <div id="sib-container" class="container">
+        <form
+          id="sib-form"
+          method="POST"
+          action="https://d83ccb86.sibforms.com/serve/MUIFAHB9T0RIhTHvynOjNDePmpz3xJAsxP5uUDrVuaDNCtaz1P_7vtmGSWdaupVGRvOMjSbSNJqu8IHTpgnbq7D8CNUI1jrFEhKJul7-GlRW-OblWVopIQSNpLoI-W7qR3HFTLoWVEj2IyB_-bfs00hfIUJDzKS67PY8vK666ARynGplaNyi-aM-2xJiCwxJskvrPGC9HathE-VdLw=="
+          data-type="subscription"
+        >
+          <div id="form-title"><p>Je participe !</p></div>
+
+          <div class="explicative-text">
+            <p>
+              Remplissez ce formulaire pour tenter de gagner un abonnement à Biumiz ou un poster exclusif de
+              l'univers du jeu.
+            </p>
+          </div>
+
+          <div style="padding: 8px 0">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row">
+                  <label for="NOM" data-required="*">Votre NOM</label>
+                  <div class="entry-field">
+                    <input class="input-text input" maxlength="200" type="text" id="NOM" name="NOM"
+                      placeholder="Votre nom de famille" data-required="true" autocomplete="family-name" required />
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary"></label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding: 8px 0">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row">
+                  <label for="PRENOM" data-required="*">Votre PRÉNOM</label>
+                  <div class="entry-field">
+                    <input class="input-text input" maxlength="200" type="text" id="PRENOM" name="PRENOM"
+                      placeholder="Votre prénom" data-required="true" autocomplete="given-name" required />
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary"></label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding: 8px 0">
+            <div class="sib-input sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row">
+                  <label for="EMAIL" data-required="*">Votre EMAIL</label>
+                  <div class="entry-field">
+                    <input class="input-text input" type="email" id="EMAIL" name="EMAIL"
+                      placeholder="exemple@fournisseur.com" data-required="true" autocomplete="email" required />
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary"></label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding: 8px 0">
+            <div class="sib-sms-field sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row">
+                  <label for="SMS">Votre numéro de téléphone (facultatif)</label>
+                  <div class="sib-sms-input-wrapper" style="direction:ltr">
+                    <div class="entry-field">
+                      <select class="input" name="SMS__COUNTRY_CODE">
+                        <option value="+33" selected>+33 FR</option>
+                        <option value="+32">+32 BE</option>
+                        <option value="+41">+41 CH</option>
+                        <option value="+352">+352 LU</option>
+                        <option value="+1">+1 CA</option>
+                      </select>
+                    </div>
+                    <div class="entry-field" style="width: 100%">
+                      <input type="tel" class="input-text input" id="SMS" name="SMS" autocomplete="tel"
+                        placeholder="Numéro sans le 0 initial" />
+                    </div>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary"></label>
+                <label class="entry__specification" style="font-size: 0.8rem; color: var(--pikico-muted);">
+                  Utilisé uniquement pour vous contacter en cas de gain, si vous le souhaitez.
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding: 8px 0">
+            <div class="g-recaptcha-v3" data-sitekey="6LfDOhQsAAAAAP1op3mXkpeQaln-uQ0ucAESOmXG" style="display: none"></div>
+          </div>
+
+          <div style="padding: 8px 0">
+            <div class="sib-optin sib-form-block" data-required="true">
+              <div class="form__entry entry_mcq">
+                <div class="form__label-row">
+                  <div class="entry__choice">
+                    <label for="OPT_IN">
+                      <div>
+                        <input type="checkbox" class="input_replaced input" value="1" id="OPT_IN" name="OPT_IN" required />
+                        <span class="checkbox checkbox_tick_positive"></span>
+                        <p class="opt-in-text" style="color: var(--pikico-text); font-size: 0.875rem; display: inline;">
+                          J'accepte que mes informations personnelles soient collectées et utilisées dans le cadre
+                          du jeu concours, conformément aux informations détaillées ci-dessus et au
+                          <a href="/jeu-concours/reglement">règlement du jeu</a>.
+                        </p>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+                <label class="entry__error entry__error--primary"></label>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding: 8px 0">
+            <div class="sib-form-block">
+              <button form="sib-form" type="submit">
+                <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512" style="width:1em;height:1em;margin-right:0.5rem;">
+                  <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z"/>
+                </svg>
+                Je participe !
+              </button>
+            </div>
+          </div>
+
+          <input type="text" name="email_address_check" value="" class="input--hidden input" />
+          <input type="hidden" name="locale" value="fr" />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts Brevo — placés en fin de body -->
+  <script is:inline>
+    window.REQUIRED_CODE_ERROR_MESSAGE = "Veuillez choisir un code pays";
+    window.LOCALE = "fr";
+    window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE =
+      "Il semble que les informations que vous avez fournies ne soient pas valides. Veuillez vérifier vos données et réessayer.";
+    window.REQUIRED_ERROR_MESSAGE = "Ce champ est obligatoire, veuillez le renseigner.";
+    window.GENERIC_INVALID_MESSAGE =
+      "Il semble que les informations que vous avez fournies ne soient pas valides. Veuillez vérifier vos données et réessayer.";
+    window.translation = {
+      common: {
+        selectedList: "{quantity} liste sélectionnée",
+        selectedLists: "{quantity} listes sélectionnées",
+        selectedOption: "{quantity} sélectionné",
+        selectedOptions: "{quantity} sélectionnés",
+      },
+    };
+    var AUTOHIDE = Boolean(1);
+  </script>
+  <script src="https://sibforms.com/forms/end-form/build/main.js" is:inline></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LfDOhQsAAAAAP1op3mXkpeQaln-uQ0ucAESOmXG&hl=fr" async defer is:inline></script>
+</PikiCoLayout>
 <style>
-	.section {
-		background: linear-gradient(to bottom, var(--biumiz-bg-start), var(--biumiz-bg-end)) !important;
-		color: var(--white) !important;
+	h1 {
+		padding: 2rem 0 1rem;
 	}
 
 	p {
 		text-align: left;
-		padding: 0.5rem 0; 
+		padding: 0.5rem 0;
+	}
+
+	.rgpd-box {
+		margin-top: 2rem;
+		padding: 1.5rem 2rem;
+		background: var(--pikico-bg-tinted2);
+		border-radius: 1rem;
+		border: 1px solid var(--pikico-border);
+	}
+
+	.rgpd-box h2 {
+		font-size: 1.35rem;
+		padding-bottom: 0.5rem;
+	}
+
+	.rgpd-box p {
+		font-size: 0.95rem;
+		line-height: 1.6;
+		color: var(--pikico-text);
 	}
 </style>
