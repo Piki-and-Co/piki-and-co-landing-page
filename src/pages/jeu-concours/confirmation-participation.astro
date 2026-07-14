@@ -9,10 +9,61 @@ import PikiCoLayout from '@/layouts/PikiCoLayout.astro';
 
 	<section class="section section--tinted" id="confirm-participation">
 		<div class="container">
-			<h2 class="section-heading-pikico">Merci pour votre participation à notre jeu concours !</span></h2>
-			<p class="section-lead">
-			Le tirage au sort aura lieu le 30 septemnbre 2026. Nous vous écrirons peu de temps après pour vous informer du lot que vous avez gagner et, le cas échéant, vous permettre de nous envoyer le dessin de votre enfant. 
+			<h1>Merci pour votre participation !</h1>
+			<p>
+			Le tirage au sort aura lieu le 30 septemnbre 2026. Nous vous écrirons peu de temps après pour 
+			vous informer du lot que vous avez gagné et, le cas échéant, vous permettre de nous envoyer 
+			le dessin de votre enfant. 
 			</p>
+			<div class="rgpd-box">
+			<h2>Vos données personnelles, en toute transparence</h2>
+			<p>
+			  Les informations collectées, à savoir mon nom, mon prénom, mon adresse e-mail et, de manière facultative,
+			  mon numéro de téléphone, sont utilisées uniquement pour gérer ma participation à ce jeu concours, être
+			  contacté·e pour la remise du lot et recevoir des actualités de Piki&nbsp;&amp;&nbsp;Co autour de Biumiz,
+			  de l'éducation, de la parentalité et des compétences humaines.
+			</p>
+			<p>
+			  Les données sont destinées à Piki&nbsp;&amp;&nbsp;Co et ne seront pas vendues à des tiers. Elles seront
+			  conservées pour la durée nécessaire à l'organisation du jeu concours, puis supprimées, sauf consentement
+			  spécifique de ma part pour recevoir les communications de Piki&nbsp;&amp;&nbsp;Co.
+			</p>
+			<p>
+			  Conformément au Règlement Général sur la Protection des Données, je peux demander l'accès, la
+			  rectification ou la suppression de mes données à tout moment en contactant Piki&nbsp;&amp;&nbsp;Co à
+			  l'adresse suivante&nbsp;:
+			  <a href="mailto:contact@piki-and-co.com">contact@piki-and-co.com</a>
+			</p>
+		  </div>
 		</div>
 	</section>
 </PikiCoLayout>
+<style>
+	h1 {
+		padding: 2rem 0 1rem;
+	}
+
+	p {
+		text-align: left;
+		padding: 0.5rem 0;
+	}
+
+	.rgpd-box {
+		margin-top: 2rem;
+		padding: 1.5rem 2rem;
+		background: var(--pikico-bg-tinted2);
+		border-radius: 1rem;
+		border: 1px solid var(--pikico-border);
+	}
+
+	.rgpd-box h2 {
+		font-size: 1.35rem;
+		padding-bottom: 0.5rem;
+	}
+
+	.rgpd-box p {
+		font-size: 0.95rem;
+		line-height: 1.6;
+		color: var(--pikico-text);
+	}
+</style>

@@ -122,13 +122,16 @@ strong {
 }
 
 .btn-outline {
-	background: transparent;
-	color: var(--pikico-accent);
+	background: var(--pikico-accent);
+	color: white;
 	border: 2px solid var(--pikico-accent);
 }
 .btn-outline:hover {
-	background: var(--pikico-accent);
-	color: white;
+	/*background: transparent;
+	color: var(--pikico-accent);
+	text-decoration: none;*/
+	transform: translateY(-2px);
+	box-shadow: 0 8px 20px rgba(255, 194, 59, 0.35);
 	text-decoration: none;
 }
 .menu-toggle {
@@ -316,7 +319,7 @@ strong {
 .footer {
 	background: var(--pikico-title);
 	color: rgba(255,255,255,0.7);
-	padding: 3rem 5%;
+	padding: 2rem 5%;
 	text-align: center;
 	font-size: 0.875rem;
 }
