@@ -3,7 +3,7 @@ title: "Les écrans, les jeux vidéo et les enfants"
 description: "Le jeu vidéo est un objet culturel à partager, bien utilisé il devient un média puissant d'apprentissage et un vecteur de création de lien"
 pubDate: 2026-06-15
 author: "L'équipe Piki & Co"
-tags: ["apprentissage", "langues", "compétences psychosociales"]
+tags: ["apprentissage", "compétences psychosociales", "écrans", "enfants"]
 draft: false
 image: "parents-teaching-girls-play-with-joystick.jpg"
 ---
