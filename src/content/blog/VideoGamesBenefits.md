@@ -7,7 +7,7 @@ tags: ["apprentissage", "langues", "compétences psychosociales", "jeu vidéo"]
 draft: false
 image: "/assets/blog/friends-playing-videogame.jpg"
 ---
-![bien plus que des mots](./friends-playing-videogame.jpg)
+![Le jeu vidéo, vecteur d'apprentissage puissant](./friends-playing-videogame.jpg)
 
 ## Le jeu vidéo, bien plus qu'un simple divertissement
 
