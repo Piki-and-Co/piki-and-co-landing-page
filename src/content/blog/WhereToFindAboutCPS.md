@@ -5,7 +5,7 @@ pubDate: 2026-07-13
 author: "L'équipe Piki & Co"
 tags: ["résilience", "santé mentale", "compétences psychosociales"]
 draft: false
-image: "/assets/blog/portrait-person-with-rainbow-colors-symbolizing-thoughts-adhd-brain.jpg"
+image: "/blog/portrait-person-with-rainbow-colors-symbolizing-thoughts-adhd-brain.jpg"
 ---
 ![portrait d'une personne avec un arc-en-ciel](./portrait-person-with-rainbow-colors-symbolizing-thoughts-adhd-brain.jpg)
 
