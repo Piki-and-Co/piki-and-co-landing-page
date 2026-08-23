@@ -1,3 +1,14 @@
+---
+title: "Les compétences psychosociales"
+description: "Les compétences psychosociales sont le socle de la santé mentale positive et de la résiliance."
+pubDate: 2026-07-13
+author: "L'équipe Piki & Co"
+tags: ["résilience", "santé mentale", "compétences psychosociales"]
+draft: false
+image: "/assets/blog/portrait-person-with-rainbow-colors-symbolizing-thoughts-adhd-brain.jpg"
+---
+![portrait d'une personne avec un arc-en-ciel](./portrait-person-with-rainbow-colors-symbolizing-thoughts-adhd-brain.jpg)
+
 ## Où peut-on en apprendre plus au sujet des compétences psychosociales ?
 
 Les compétences psychosociales (CPS) désignent un ensemble de capacités cognitives, émotionnelles et sociales qui permettent à chacun de répondre efficacement aux défis du quotidien[^1].
