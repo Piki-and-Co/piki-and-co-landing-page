@@ -5,7 +5,7 @@ pubDate: 2026-06-29
 author: "L'équipe Piki & Co"
 tags: ["apprentissage", "jeu vidéo", "écrans", "enfants"]
 draft: false
-image: "/assets/blog/DadNSonPlayingVideoGames.jpg"
+image: "/blog/DadNSonPlayingVideoGames.jpg"
 ---
 ![Le jeu vidéo comme moments de partage](./DadNSonPlayingVideoGames.jpg)
 

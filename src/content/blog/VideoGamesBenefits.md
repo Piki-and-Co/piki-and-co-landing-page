@@ -5,7 +5,7 @@ pubDate: 2026-06-22
 author: "L'équipe Piki & Co"
 tags: ["apprentissage", "langues", "compétences psychosociales", "jeu vidéo"]
 draft: false
-image: "/assets/blog/friends-playing-videogame.jpg"
+image: "/blog/friends-playing-videogame.jpg"
 ---
 ![Le jeu vidéo, vecteur d'apprentissage puissant](./friends-playing-videogame.jpg)
 

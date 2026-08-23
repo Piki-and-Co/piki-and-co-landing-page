@@ -5,7 +5,7 @@ pubDate: 2026-06-15
 author: "L'équipe Piki & Co"
 tags: ["apprentissage", "compétences psychosociales", "écrans", "enfants"]
 draft: false
-image: "parents-teaching-girls-play-with-joystick.jpg"
+image: "/blog/parents-teaching-girls-play-with-joystick.jpg"
 ---
 ![Le jeu vidéo en famille](./parents-teaching-girls-play-with-joystick.jpg)
 

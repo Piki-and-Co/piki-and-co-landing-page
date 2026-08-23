@@ -5,7 +5,7 @@ pubDate: 2026-06-01
 author: "L'équipe Piki & Co"
 tags: ["jeu", "apprentissage", "science", "biumiz"]
 draft: false
-image: "/assets/blog/BiumizAccueil.png"
+image: "/blog/BiumizAccueil.png"
 ---
 ![Le jeu, meilleur vecteur d'apprentissage](./BiumizAccueil.png)
 ## Le jeu, un vecteur d'apprentissage puissant

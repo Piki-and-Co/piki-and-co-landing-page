@@ -5,7 +5,7 @@ pubDate: 2026-06-08
 author: "L'équipe Piki & Co"
 tags: ["apprentissage", "langues", "compétences psychosociales"]
 draft: false
-image: "/assets/blog/IllustrationChapt1.png"
+image: "/blog/IllustrationChapt1.png"
 ---
 ![bien plus que des mots](./IllustrationChapt1.png)
 ## Bien plus que des mots, un atout pour la Vie

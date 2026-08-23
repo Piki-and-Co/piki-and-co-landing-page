@@ -5,7 +5,7 @@ pubDate: 2026-07-06
 author: "L'équipe Piki & Co"
 tags: ["Equilibre émotionnel", "bien être mental", "résilience", "compétences psychosociales"]
 draft: false
-image: "/assets/blog/close-up-people-getting-stronger-together.jpg"
+image: "/blog/close-up-people-getting-stronger-together.jpg"
 ---
 ![Les relations comme vecteur de santé mentale](./close-up-people-getting-stronger-together.jpg)
 
