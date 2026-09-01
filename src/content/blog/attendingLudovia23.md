@@ -1,12 +1,4 @@
----
-title: "XXXX"
-description: "XXX"
-pubDate: 2026-06-08
-author: "L'équipe Piki & Co"
-tags: ["Ludovia", "éducation", "enseignants" "EdTech"]
-draft: false
-image: ""
----
+
 C'est par le train qu'une partie de l'équipe de Piki & Co s'est rendue à Ax-Les-Thermes en Ariège pour participer aux universités d'été de Ludovia. 
 3 jours pour rencontrer et échanger avec tous les acteurs du monde de l'éducation : Les enseignants en 1er lieu, les académies et régions et les éditeurs. 
 Tous réunis autour d'une même envie : Proposer des outils et solutions pertinentes pour les apprenants et simples et utiles pour les enseignants. 
