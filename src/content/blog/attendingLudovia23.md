@@ -3,7 +3,7 @@ title: "XXXX"
 description: "XXX"
 pubDate: 2026-06-08
 author: "L'équipe Piki & Co"
-tags: ["Ludovia", "2ducation", "enseignants" "EdTech"]
+tags: ["Ludovia", "éducation", "enseignants" "EdTech"]
 draft: false
 image: ""
 ---
@@ -29,4 +29,4 @@ l’offre éducative numérique.
 Enfin, cet événement marquera l’annonce officielle de l’arrivée prochaine du premier jeu immersif multisupport dédié à l’apprentissage de l'anglais. 
 Une innovation qui s’inscrit dans la continuité de notre engagement pour des outils d’apprentissage engageants et accessibles à tous.
 
-[1]: hhtps://www.ludovia.fr
+[1]: https://www.ludovia.fr
