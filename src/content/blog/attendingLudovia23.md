@@ -12,7 +12,7 @@ C'est par le train qu'une partie de l'équipe de Piki & Co s'est rendue à Ax-Le
 Tous réunis autour d'une même envie : Proposer des outils et solutions pertinentes pour les apprenants et simples et utiles pour les enseignants. 
 
 ## Pourquoi participer à Ludovia ?
-Participer aux Universités d’été de Ludovia[1]à Ax-les-Thermes s’inscrit comme une étape stratégique et nécessaire pour notre démarche éducative. 
+Participer aux [Universités d’été][1] de Ludovia[1]à Ax-les-Thermes s’inscrit comme une étape stratégique et nécessaire pour notre démarche éducative. 
 Suite à notre participation au FLIP et aux rencontres précieuses avec des familles et des parents, il nous est apparu aujourd’hui essentiel de prolonger cet élan 
 au cœur de la communauté éducative professionnelle.
 
