@@ -7,7 +7,7 @@ tags: ["apprentissage", "langues", "compétences psychosociales", "jeu vidéo", 
 draft: false
 image: "/blog/Amandine-ludovia2026.png"
 ---
-![Amandine à ludovia](Amandine-ludovia2026.png)
+![Amandine à ludovia](./Amandine-ludovia2026.png)
 
 C'est par le train qu'une partie de l'équipe de Piki & Co s'est rendue à Ax-Les-Thermes en Ariège pour participer aux universités d'été de Ludovia. 
 3 jours pour rencontrer et échanger avec tous les acteurs du monde de l'éducation : Les enseignants en 1er lieu, les académies et régions et les éditeurs. 
