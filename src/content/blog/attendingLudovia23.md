@@ -1,3 +1,13 @@
+---
+title: "Piki & Co présente Biumiz à Ludovia"
+description: "Cet événement nous a offert une opportunité unique de rencontrer, d’échanger et de présenter notre prototype directement aux enseignants du premier degré" 
+pubDate: 2026-06-22
+author: "L'équipe Piki & Co"
+tags: ["apprentissage", "langues", "compétences psychosociales", "jeu vidéo"]
+draft: false
+image: "/blog/friends-playing-videogame.jpg"
+---
+
 
 C'est par le train qu'une partie de l'équipe de Piki & Co s'est rendue à Ax-Les-Thermes en Ariège pour participer aux universités d'été de Ludovia. 
 3 jours pour rencontrer et échanger avec tous les acteurs du monde de l'éducation : Les enseignants en 1er lieu, les académies et régions et les éditeurs. 
@@ -5,12 +15,15 @@ Tous réunis autour d'une même envie : Proposer des outils et solutions pertine
 
 ## Pourquoi participer à Ludovia ?
 Participer aux [Universités d’été de Ludovia][1] à Ax-les-Thermes s’inscrit comme une étape stratégique et nécessaire pour notre démarche éducative. 
-Suite à notre participation au [FLIP][2]et aux rencontres précieuses avec des familles et des parents, il nous est apparu aujourd’hui essentiel de prolonger cet élan au cœur de la communauté éducative professionnelle.
+Suite à notre participation au [FLIP][2] et aux rencontres précieuses avec des familles et des parents, il nous est apparu aujourd’hui essentiel de prolonger cet élan au cœur de la communauté éducative professionnelle.
 
 ## Rencontrer les enseignants
 Cet événement nous a offert une opportunité unique de rencontrer, d’échanger et de présenter notre prototype directement aux enseignants du premier degré. 
 Ces professionnels sont en première ligne dans l’apprentissage des compétences psychosociales, ces compétences humaines et cognitives fondamentales qui structurent l’enfant. 
 Leurs retours d’expérience sont indispensables pour valider et améliorer nos outils avant leur déploiement à grande échelle.
+
+## Retours positifs ! 
+Les enseignants avec lesquels nous avons échangé ont tous été enthousiaste tant sur le fond (narration, scénario d'éveil aux langues, etc.) que sur la forme (jeu sur tablette, cahier d'accompagnement, jeu de plateau ou jeu de carte) 
 
 ## Rencontrer les éditeurs scolaires et acteur des EdTech
 Au-delà du monde de l’enseignement, Ludovia constitue un carrefour incontournable pour les éditeurs scolaires et les acteurs de l’EdTech. 
