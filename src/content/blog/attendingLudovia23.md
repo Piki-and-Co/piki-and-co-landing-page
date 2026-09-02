@@ -5,7 +5,7 @@ pubDate: 2026-09-02
 author: "L'équipe Piki & Co"
 tags: ["apprentissage", "langues", "compétences psychosociales", "jeu vidéo", "Salon"]
 draft: false
-image: "/blog/Amandine-ludovia2026.png"
+image: "./blog/Amandine-ludovia2026.png"
 ---
 
 
