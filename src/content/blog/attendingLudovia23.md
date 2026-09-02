@@ -23,7 +23,7 @@ Ces professionnels sont en première ligne dans l’apprentissage des compétenc
 Leurs retours d’expérience sont indispensables pour valider et améliorer nos outils avant leur déploiement à grande échelle.
 
 ## Retours positifs ! 
-Les enseignants avec lesquels nous avons échangé ont tous été enthousiaste tant sur le fond (narration, scénario d'éveil aux langues, etc.) que sur la forme (jeu sur tablette, cahier d'accompagnement, jeu de plateau ou jeu de carte). 
+Les enseignants avec lesquels nous avons échangé ont tous été enthousiastes tant sur le fond (narration, scénario d'éveil aux langues, etc.) que sur la forme (jeu sur tablette, cahier d'accompagnement, jeu de plateau ou jeu de carte). 
 Un grand merci pour leurs retours qui nous donnent de l'énergie et nous permette d'avancer et d'enrichir notre jeu Biumiz ! 
 
 ## Rencontrer les éditeurs scolaires et acteur des EdTech
