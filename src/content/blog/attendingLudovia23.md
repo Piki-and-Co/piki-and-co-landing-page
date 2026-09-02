@@ -5,8 +5,7 @@ Tous réunis autour d'une même envie : Proposer des outils et solutions pertine
 
 ## Pourquoi participer à Ludovia ?
 Participer aux [Universités d’été de Ludovia][1] à Ax-les-Thermes s’inscrit comme une étape stratégique et nécessaire pour notre démarche éducative. 
-Suite à notre participation au FLIP et aux rencontres précieuses avec des familles et des parents, il nous est apparu aujourd’hui essentiel de prolonger cet élan 
-au cœur de la communauté éducative professionnelle.
+Suite à notre participation au [FLIP] [2]et aux rencontres précieuses avec des familles et des parents, il nous est apparu aujourd’hui essentiel de prolonger cet élan au cœur de la communauté éducative professionnelle.
 
 ## Rencontrer les enseignants
 Cet événement nous a offert une opportunité unique de rencontrer, d’échanger et de présenter notre prototype directement aux enseignants du premier degré. 
@@ -22,3 +21,4 @@ Enfin, cet événement marquera l’annonce officielle de l’arrivée prochaine
 Une innovation qui s’inscrit dans la continuité de notre engagement pour des outils d’apprentissage engageants et accessibles à tous.
 
 [1]: https://www.ludovia.fr
+[2]: https://www.jeux-festival.com/
