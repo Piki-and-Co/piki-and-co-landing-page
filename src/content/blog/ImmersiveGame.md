@@ -1,5 +1,5 @@
 ---
-title: "Les jeux immersifs"
+title: "Qu'est ce qu'un jeu immersif ?"
 description: "Un jeu immersif est une expérience dans laquelle le joueur fait partie intégrante de l'action."
 pubDate: 2026-07-20
 author: "L'équipe Piki & Co"
@@ -9,50 +9,44 @@ image: "/blog/kids-playing-their-room.jpg"
 ---
 ![Petit frère qui apprend à battre son grand frère](./kids-playing-their-room.jpg)
 
-## Qu'est ce qu'un jeu immersif ? Quand le virtuel devient un moteur d'apprentissage
+## Quand le virtuel devient un moteur d'apprentissage
 
-Un **jeu immersif** est bien plus qu’un simple divertissement technique. C’est une expérience dans laquelle le joueur ou 
-la joueuse a l'impression de faire partie intégrante du monde virtuel et de participer activement à la scène qui se déroule 
-devant ses yeux[^1]. Cette sensation de "présence" transforme l'utilisateur en un agent central de l'action[^2].
+Un jeu immersif est un jeu dans lequel le joueur ou la joueuse a l'impression de faire partie du monde virtuel et de participer activement à la scène qui se déroule devant ses yeux[^1]. 
+Cette sensation de présence et de projection corporelle et mentale dans l’avatar transforme l'expérience numérique en un espace d'action directe où le sujet devient l'acteur central du récit[^3].
 
-## Un médium puissant pour apprendre
+## Un média puissant pour apprendre et mémoriser
 
-C'est précisément cette capacité à immerger et à engager la personne dans son univers qui fait du jeu vidéo un médium 
-d'apprentissage exceptionnel. Contrairement à une leçon classique en classe, où seules certaines zones cérébrales sont mobilisées 
-et souvent de manière passive, le jeu immersif provoque un **engagement complet du cerveau**[^3][^4].
+C'est précisément cette capacité d'un jeu à immerger le joueur ou la joueuse et à l'engager dans son univers qui en fait un **média puissant d'apprentissage**. Cela favorise la concentration, 
+stimule les émotions et procure une expérience sensorielle complète[^2].
 
-Cette immersion favorise une concentration accrue et stimule intensément les émotions, procurant une expérience sensorielle 
-globale[^5]. En plaçant les informations au cœur de l'action, le jeu permet une **meilleure compréhension** et une **mémorisation 
-durable**, car le savoir est directement lié à une expérience vécue[^6]. C’est ce que les chercheur.e.s appellent 
-la capacité d'apprendre à apprendre, où le cerveau gagne en plasticité et en efficacité pour de futures tâches[^3][^7].
+Dans ce contexte, **l'ensemble du cerveau est engagé**, contrairement à une leçon traditionnelle en classe, où seules quelques zones cérébrales sont mobilisées. Cet engagement complet favorise 
+grandement l'apprentissage et la mémorisation[^2]. 
 
-## Une immersion à adapter selon l'âge
-Toutefois, cette plongée dans un univers virtuel ne se fait pas sans coût. L'immersion vidéoludique demande des **efforts 
-cognitifs et émotionnels** importants[^8]. Il est donc crucial de veiller à ce que le niveau d'immersion soit en parfaite 
-adéquation avec la maturité de l'enfant[^9].
+Le jeu immersif fonctionne comme une véritable machine d'apprentissage : en plaçant les informations “à la demande” et “juste à temps” au cœur de l'action, il **lie** intimement **le savoir à 
+l'expérience vécue** et à la résolution active de problèmes[^5]. Cet engagement cognitif et affectif complet stimule la plasticité cérébrale, améliore l'attention visuelle et développe une compétence clé : 
+celle d'**apprendre à apprendre**[^4].
 
-Pour les enfants de 4 à 10 ans, il est recommandé de privilégier des mécanismes d'immersion spécifiques :
-* **Immersion systémique** : Elle repose sur la compréhension et la manipulation des règles et des mécaniques de jeu, 
-favorisant la **résolution de problèmes**[^10].
-* **Immersion narrative** : Elle engage l'enfant par l'histoire et les personnages, permettant de développer l'**empathie** et 
-la **compréhension** de scénarios complexes[^11].
-* **Immersion émotionnelle** : Elle crée un lien affectif positif avec l'activité, ce qui est essentiel pour maintenir 
-la motivation et le plaisir d'apprendre[^12].
+## Adapter l'immersion à la maturité de l'enfant
 
-En respectant ces paliers, le jeu immersif devient un **outil pédagogique sain et stimulant**, capable de transformer le rapport 
-des enfants au savoir.
+Cependant, l'immersion vidéoludique demande des **efforts cognitifs et émotionnels** importants. Traiter des flux d'informations rapides et prendre des décisions sous pression sollicite 
+intensément les ressources de l'enfant. Il est donc très important de veiller à ce que le niveau d'immersion soit en **cohérence avec la maturité** de l'enfant[^4].
 
+Typiquement, pour un enfant entre 4 et 10 ans, nous recommandons de se limiter aux mécanismes d'immersion systémique, narrative et émotionnelle[^6] :
+* **L'immersion systémique** : Elle repose sur la compréhension et la manipulation des règles et des mécaniques de jeu. 
+L'enfant interagit avec un système de possibles et apprend à résoudre des problèmes logiques par essais-erreurs[^6].
+* **L'immersion narrative** : Elle engage l'enfant par l'histoire, les personnages et la diégèse. 
+Elle lui permet d'explorer des scénarios complexes, de développer son imagination et de donner un sens aux actions qu'il accomplit[^6].
+* **L'immersion émotionnelle** : Elle crée un lien affectif positif qui maintient la motivation et le plaisir d'apprendre[^6]. 
+Elle offre un cadre rassurant qui soutient l'effort sans provoquer de surcharge ou de frustration excessive[^7].
 
-[^1]: Jacobs Foundation. (2019). 2019 Klaus J. Jacobs Research Prize “Leveraging video games to promote brain plasticity and learning”.
-[^2]: Bavelier, D., & Green, C. S. (2024). Learning and Transfer: A Perspective From Action Video Game Play. Current Directions in Psychological Science, 33(1), 1-8.
-[^3]: Zhang, R. Y., Chopin, A., Shibata, K., Lu, Z.-L., Jaeggi, S. M., Buschkuehl, M., Green, C. S., & Bavelier, D. (2021). Action video game play facilitates “learning to learn”. Communications Biology, 4(1), 1154.
-[^4]: Rama, P. S., Black, R. W., van Es, E., & Warschauer, M. (2012). Affordances for second language learning in World of Warcraft. ReCALL, 24(3), 322–338.
-[^5]: Chopin, A., Bediou, B., & Bavelier, D. (2019). Altering perception: the case of action video gaming. Current Opinion in Psychology, 29, 168-173.
-[^6]: Thorne, S. L. (2003). Artifacts and cultures-of-use in intercultural communication. Language Learning & Technology, 7(2), 38-67.
-[^7]: Giordan, A., et Saltet, J. (2024). Apprendre à apprendre. J'ai Lu.
-[^8]: Journal of e-Learning and Knowledge Society. (s.d.). Computer-Mediated- Communication and Foreign Language Education.
-[^9]: Cornillie, F., Thorne, S. L., & Desmet, P. (2012). Digital games for language learning: From hype to insight? ReCALL, 24(3), 243-256.
-[^10]: Chik, A. (2014). Digital gaming and language learning: Autonomy and community. Language Learning & Technology, 18(2), 85-100.
-[^11]: Boot, W. R., Blakely, D. P., & Simons, D. J. (2011). Do action video games improve perception and cognition? Frontiers in Psychology, 2, 226.
-[^12]: JournalsPub. (s.d.). From SimCity to Smart City: The Role of Gamification in Teaching Sustainable Design.
+En adaptant le type d'immersion à l'âge de l'enfant, le jeu vidéo immersif devient un formidable instrument de **socialisation cognitive**[^4], 
+alliant de manière équilibrée le plaisir du jeu (_play_) et la rigueur du cadre (_game_)[^2].
+
+[^1]: Jacobs Foundation. (2019). _2019 Klaus J. Jacobs Research Prize: “Leveraging video games to promote brain plasticity and learning”._
+[^2]: Zhang, R. Y., Chopin, A., Shibata, K., Lu, Z.-L., Jaeggi, S. M., Buschkuehl, M., Green, C. S., & Bavelier, D. (2021). Action video game play facilitates “learning to learn”. _Communications Biology_, 4(1), 1154. https://doi.org/10.1038/s42003-021-02652-7
+[^3]: Rama, P. S., Black, R. W., van Es, E., & Warschauer, M. (2012). Affordances for second language learning in World of Warcraft. _ReCALL_, 24(3), 322–338. https://doi.org/10.1017/S0958344012000171
+[^4]: Chopin, A., Bediou, B., & Bavelier, D. (2019). Altering perception: the case of action video gaming. _Current Opinion in Psychology_, 29, 168-173. https://doi.org/10.1016/j.copsyc.2019.03.010
+[^5]: Lu, X. (2013). An investigation into language complexity of World-of-Warcraft game-external texts. _arXiv preprint arXiv:1311.6661_.
+[^6]: He, Y. (2014). _Cooperative Game-based Learning in the English as a Foreign Language Classroom_ (Thèse de doctorat, The University of Arizona).
+[^7]: Genvo, S. (2013). _Penser la formation et les évolutions du jeu sur support numérique : Mémoire de synthèse des activités de recherche (Tome 2)._ Université de Lorraine.
 
