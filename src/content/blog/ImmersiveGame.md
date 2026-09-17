@@ -5,9 +5,9 @@ pubDate: 2026-07-20
 author: "L'équipe Piki & Co"
 tags: ["Jeu", "Apprentissage", "Enfants"]
 draft: false
-image: "/blog/kids-playing-their-room.jpg"
+image: "/blog/NightshadedDecorChambreBiumizClair.jpg"
 ---
-![Petit frère qui apprend à battre son grand frère](./kids-playing-their-room.jpg)
+![La chambre de Biumiz, comme si on se trouvait à l'intérieur](./NightshadedDecorChambreBiumizClair.jpg)
 
 ## Quand le virtuel devient un moteur d'apprentissage
 
