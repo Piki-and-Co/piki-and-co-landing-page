@@ -8,6 +8,8 @@ draft: false
 image: "/blog/parents-teaching-girls-play-with-joystick.jpg"
 ---
 ![Le jeu vidéo en famille](./parents-teaching-girls-play-with-joystick.jpg)
+*Photo: Designed by Magnific [www.magnific.com][4]*
+
 
 ## Écrans et jeux vidéo : et si on en faisait un moment de partage en famille ?
 
@@ -44,3 +46,4 @@ En accompagnant votre enfant dans sa vie numérique, vous l'aidez à transformer
 
 [1]:https://piki-and-co.com/blog/learningwithgames/
 [2]:https://pegi.info/fr
+[3]:https://www.magnific.com

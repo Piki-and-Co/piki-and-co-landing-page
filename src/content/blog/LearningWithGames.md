@@ -8,6 +8,8 @@ draft: false
 image: "/blog/BiumizAccueil.png"
 ---
 ![Le jeu, meilleur vecteur d'apprentissage](./BiumizAccueil.png)
+*Illustration: Charlotte Gahmia*
+
 ## Le jeu, un vecteur d'apprentissage puissant
 Avez-vous déjà remarqué à quel point votre enfant, ou même vous, peut rester concentré des heures sur un défi dans un jeu ?
 Alors qu'il décroche après dix minutes de cours magistral ?

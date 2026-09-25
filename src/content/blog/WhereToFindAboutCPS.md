@@ -8,6 +8,7 @@ draft: false
 image: "/blog/portrait-person-with-rainbow-colors-symbolizing-thoughts-adhd-brain.jpg"
 ---
 ![portrait d'une personne avec un arc-en-ciel](./portrait-person-with-rainbow-colors-symbolizing-thoughts-adhd-brain.jpg)
+*Photo: Designed by Magnific [www.magnific.com][5]*
 
 ## Où peut-on en apprendre plus au sujet des compétences psychosociales ?
 
@@ -44,3 +45,4 @@ En développant ces savoirs, chacun peut devenir acteur de son propre équilibre
 [2]: https://www.santepubliquefrance.fr/sante-mentale/depression-et-anxiete/brochure/les-competences-psychosociales-lessentiel-a-savoir
 [3]: https://www.santepubliquefrance.fr/docs/referentiel/les-competences-psychosociales-un-referentiel-operationnel-a-destination-des-professionnels-experts
 [4]: https://sante.gouv.fr/fichiers/bo/2022/2022.18.sante.pdf
+[5]: https://www.magnific.com

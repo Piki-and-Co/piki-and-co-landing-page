@@ -8,6 +8,7 @@ draft: false
 image: "/blog/friends-playing-videogame.jpg"
 ---
 ![Le jeu vidéo, vecteur d'apprentissage puissant](./friends-playing-videogame.jpg)
+*Photo: Designed by Magnific [www.magnific.com][1]*
 
 ## Le jeu vidéo, bien plus qu'un simple divertissement
 
@@ -61,3 +62,4 @@ Le jeu vidéo ne doit plus être vu comme un média de simple divertissement, ma
 [^16]: Greenfield, P. (1994). Les jeux vidéo comme instruments de socialisation cognitive. Réseaux, 12(67), 33-56.
 [^17]: Kaptan, M., & Soyuer, B. (2026). The Role Of Video Games In Education: The Case Of Assassin’s Creed. Çukurova Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, 1-10.
 
+[1]: https://www.magnific.com

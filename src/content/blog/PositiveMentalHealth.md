@@ -8,6 +8,7 @@ draft: false
 image: "/blog/close-up-people-getting-stronger-together.jpg"
 ---
 ![Les relations comme vecteur de santé mentale](./close-up-people-getting-stronger-together.jpg)
+*Photo: Designed by Magnific [www.magnific.com][2]*
 
 ## Qu’est-ce que la santé mentale positive ?
 
@@ -52,4 +53,4 @@ des ressources complètes sur la santé mentale.
 [^3]: Santé publique France. (2026). _Le programme d’action de Santé publique France sur les compétences psychosociales._ Repéré à [https://www.santepubliquefrance.fr][1].
 
 [1]:https://www.santepubliquefrance.fr/
-
+[2]:https://www.magnific.com

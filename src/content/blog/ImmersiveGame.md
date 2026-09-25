@@ -8,6 +8,7 @@ draft: false
 image: "/blog/NightshadedDecorChambreBiumizClair.jpg"
 ---
 ![La chambre de Biumiz, comme si on se trouvait à l'intérieur](./NightshadedDecorChambreBiumizClair.jpg)
+*Illustration : Wren Davies (Moon.tokkym)*
 
 ## Quand le virtuel devient un moteur d'apprentissage
 

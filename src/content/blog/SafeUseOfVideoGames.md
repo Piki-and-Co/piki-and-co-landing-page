@@ -8,6 +8,7 @@ draft: false
 image: "/blog/DadNSonPlayingVideoGames.jpg"
 ---
 ![Le jeu vidéo comme moments de partage](./DadNSonPlayingVideoGames.jpg)
+*Photo: Designed by Magnific [www.magnific.com][4]*
 
 ## Concrètement, qu’est-ce qu’une “utilisation saine” des jeux vidéo ?
 
@@ -68,3 +69,4 @@ recommandé et la nature des contenus (violence, microtransactions, etc.). Vous 
 [1]:https://piki-and-co.com/blog/learningwithgames/
 [2]:https://www.mon-enfant-et-les-ecrans.fr/
 [3]:https://jeprotegemonenfant.gouv.fr/ecrans/
+[4]:https://www.magnific.com
