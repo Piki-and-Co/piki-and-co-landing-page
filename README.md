@@ -145,6 +145,8 @@ src/
 │   │   ├── index.astro     # formulaire Brevo
 │   │   ├── confirmation-inscription.astro
 │   │   └── confirmation-email.astro
+│   ├── confidentialite/
+│   │   └── playstore.astro # Data Safety Google Play
 │   └── legal/
 │       ├── mention.astro
 │       ├── privacy.astro
