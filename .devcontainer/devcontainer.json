@@ -1,0 +1,21 @@
+{
+  "name": "Piki & Co",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "forwardPorts": [4321],
+  "portsAttributes": {
+    "4321": {
+      "label": "Astro",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "npm ci",
+  "postAttachCommand": "npm run dev -- --host 0.0.0.0 --port 4321",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode"
+      ]
+    }
+  },
+  "remoteUser": "node"
+}
