@@ -1,6 +1,7 @@
 ---
 import '@styles/pikico.css';
 import { Image } from 'astro:assets';
+import BaseHead from '../components/BaseHead.astro';
 
 import logoImage from '@assets/logo.webp';
 import linkedin from '@assets/Social-Linkedin_White.webp';
@@ -84,6 +85,7 @@ const orgSchema = JSON.stringify({
   <meta name="author" content="Piki & Co" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <title>{title} | Piki & Co</title>
+  <BaseHead />
   <link rel="canonical" href={canonicalUrl} />
   <link rel="icon" type="image/x-icon" href="/assets/logo.ico" />
   <link rel="alternate" type="application/rss+xml" title="Blog Piki & Co" href="/rss.xml" />
