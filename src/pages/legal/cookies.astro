@@ -36,43 +36,40 @@ import PikiCoLayout from '@/layouts/PikiCoLayout.astro';
             <td>6 mois</td>
             <td>Enregistre vos choix de consentement. Exempté de consentement conformément aux recommandations de la CNIL.</td>
           </tr>
-        </tbody>
-      </table>
-
-      <h2>Cookies de mesure d'audience (soumis à consentement)</h2>
-      <p>Nous utilisons <strong>Matomo</strong>, un outil de mesure d'audience <strong>auto-hébergé sur nos propres serveurs en France</strong>. Ces cookies ne sont déposés <strong>qu'après votre consentement explicite</strong>. Vos données de navigation sont anonymisées et ne sont ni revendues, ni transmises à des tiers.</p>
-      <table>
-        <thead>
-          <tr><th>Identifiant</th><th>Domaine</th><th>Type</th><th>Expiration</th><th>Description</th></tr>
-        </thead>
-        <tbody>
           <tr>
-            <td>_pk_id</td>
-            <td>.piki-and-co.com</td>
-            <td>Première partie</td>
-            <td>13 mois</td>
-            <td>Identifiant unique pour distinguer les visiteurs dans les statistiques.</td>
-          </tr>
-          <tr>
-            <td>_pk_ses</td>
-            <td>.piki-and-co.com</td>
-            <td>Première partie</td>
-            <td>30 minutes</td>
-            <td>Cookie de session pour regrouper les pages consultées lors d'une même visite.</td>
-          </tr>
-          <tr>
-            <td>_pk_ref</td>
-            <td>.piki-and-co.com</td>
-            <td>Première partie</td>
-            <td>6 mois</td>
-            <td>Stocke le site d'origine ayant conduit le visiteur sur notre site.</td>
-          </tr>
-          <tr>
-            <td>SRVGROUP</td>
-            <td>an.kjbconseil.com</td>
+            <td>__Secure-ENID</td>
+            <td>.google.com</td>
             <td>Tiers</td>
-            <td>Session</td>
-            <td>Cookie de répartition de charge du serveur hébergeant Matomo.</td>
+            <td>6 mois</td>
+            <td>Utilisé par le reCAPTCHA. Enregistre des préférences, telles que la langue et est utilisé à des fins de sécurité</td>
+          </tr>
+          <tr>
+            <td>SEARCH_SAMESITE</td>
+            <td>.google.com</td>
+            <td>Tiers</td>
+            <td>6 mois</td>
+            <td>Cookie technique utilisé par Google pour gérer les règles « SameSite » du navigateur.</td>
+          </tr>
+          <tr>
+            <td>AEC</td>
+            <td>.google.com</td>
+            <td>Tiers</td>
+            <td>6 mois</td>
+            <td>Enregistre les préférences de l’utilisateur, telles que la langue choisie, le nombre de résultats de recherche par page, les paramètres de SafeSearch et les fonctionnalités personnalisées.</td>
+          </tr>
+          <tr>
+            <td>NID</td>
+            <td>.google.com</td>
+            <td>Tiers</td>
+            <td>6 mois</td>
+            <td>Détecte le spam, la fraude et les abus afin de garantir que les annonceurs ne soient pas facturés indûment pour des impressions ou des interactions publicitaires invalides ou frauduleuses.</td>
+          </tr>
+          <tr>
+            <td>SOCS</td>
+            <td>.google.com</td>
+            <td>Tiers</td>
+            <td>13 mois</td>
+            <td>Enregistre les choix actuels de l'utilisateur concernant le consentement aux cookies et les préférences en matière de confidentialité.</td>
           </tr>
         </tbody>
       </table>
@@ -81,8 +78,7 @@ import PikiCoLayout from '@/layouts/PikiCoLayout.astro';
       <p>Nous prévoyons d'intégrer prochainement des outils marketing (Google Ads, Meta/Facebook Pixel). Ces cookies ne seront jamais déposés sans votre consentement préalable. Cette page sera mise à jour en conséquence.</p>
 
       <h2>Gérer vos préférences</h2>
-      <p>Lors de votre première visite, un bandeau vous propose d'accepter ou de refuser les cookies. Vous pouvez modifier vos choix à tout moment en cliquant sur
-        <strong><a href="#" onclick="tarteaucitron.userInterface.openPanel();return false;">Gérer mes cookies</a></strong>.
+      <p>Lors de votre première visite, un bandeau vous propose d'accepter ou de refuser les cookies. Vous pouvez modifier vos choix à tout moment en cliquant sur <strong><a href="#" onclick="tarteaucitron.userInterface.openPanel();return false;">Gérer mes cookies</a></strong>.
         Votre choix est conservé pendant <strong>6 mois</strong>.
       </p>
       <p>Vous pouvez également configurer votre navigateur :</p>
