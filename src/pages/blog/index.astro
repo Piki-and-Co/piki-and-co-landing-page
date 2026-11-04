@@ -52,12 +52,11 @@ const allTags = [...new Set(posts.flatMap(p => p.data.tags))].sort();
                 </div>
               )}
               <h3>
-                <a href={`/blog/${post.slug}`} class="blog-card-link">{post.data.title}</a>
+                <a href={`/blog/${post.id}`} class="blog-card-link">{post.data.title}</a>
               </h3>
               <p>{post.data.description}</p>
               <p class="blog-card-meta">
-                {post.data.pubDate.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}
-                · {post.data.author}
+                {post.data.pubDate.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })} · {post.data.author}
               </p>
             </div>
           </article>
