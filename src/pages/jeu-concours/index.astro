@@ -2,14 +2,14 @@
 import PikiCoLayout from '@/layouts/PikiCoLayout.astro';
 import { Image } from 'astro:assets';
 
-import BSuperHappy from '@assets/BiumizSuperHappy.webp';
-import BContente from '@assets/BiumizContente.webp';
-import BVictory from '@assets/BiumizVictory.webp';
+import BSuperHappy from '@assets/KitamiSuperHappy.webp';
+import BContente from '@assets/KitamiContente.webp';
+import BVictory from '@assets/KitamiVictory.webp';
 ---
 
 <PikiCoLayout
-  title="Participation au jeu concours Biumiz"
-  description="Participez à notre jeu concours et tentez de gagner des abonnements à Biumiz !"
+  title="Participation au jeu concours Ki-tämi"
+  description="Participez à notre jeu concours et tentez de gagner des abonnements à Ki-tämi !"
   breadcrumbs={[{ name: 'Jeu concours', href: '/jeu-concours' }]}
   >
   <Fragment slot="head">
@@ -77,7 +77,7 @@ import BVictory from '@assets/BiumizVictory.webp';
 
   <section class="section section--tinted" id="visuels">
 	  <div class="container">
-		  <h1>Gagnez 6 mois d'abonnement à Biumiz !</h1>
+		  <h1>Gagnez 6 mois d'abonnement à Ki-tämi !</h1>
 		  <div class="cps-grid">
 				<div class="cps-card">
 					<div class="cps-image-wrapper">
@@ -96,12 +96,12 @@ import BVictory from '@assets/BiumizVictory.webp';
 				</div>
 				<div class="cps-card">
 					<div class="cps-image-wrapper">
-						<Image class="cps-image" src={BContente} alt="Biumiz Yeay !" width={96} 
+						<Image class="cps-image" src={BContente} alt="Ki-tämi Yeay !" width={96}
 							height={96} loading="eager" format="webp"/>
 					</div>
 					<h3>Deuxième prix</h3>
 					<p>10 posters inédits numéroté et signés de nos artistes !</p>
-					<Image class="card-media" src={BVictory} alt="Poster Biumiz" width={600} height={848} loading="lazy" format="webp"/>
+					<Image class="card-media" src={BVictory} alt="Poster Ki-tämi" width={600} height={848} loading="lazy" format="webp"/>
 				</div>
 		  </div>
 	  </div>
@@ -109,10 +109,10 @@ import BVictory from '@assets/BiumizVictory.webp';
 
   <section class="section" id="bulletin">
     <div class="container">
-      <h1>Inscription au jeu concours Biumiz</h1>
+      <h1>Inscription au jeu concours Ki-tämi</h1>
       <p>
         En renseignant ce formulaire, je participe au jeu concours organisé par Piki&nbsp;&amp;&nbsp;Co dans le
-        cadre de la révélation du prototype du jeu Biumiz à l'automne 2026.
+        cadre de la révélation du prototype du jeu Ki-tämi à l'automne 2026.
       </p>
       <p>
         <a href="/jeu-concours/reglement">Consultez le règlement complet du jeu concours</a> pour connaître les
@@ -124,7 +124,7 @@ import BVictory from '@assets/BiumizVictory.webp';
         <p>
           Les informations collectées, à savoir mon nom, mon prénom, mon adresse e-mail et, de manière facultative,
           mon numéro de téléphone, sont utilisées uniquement pour gérer ma participation à ce jeu concours, être
-          contacté·e pour la remise du lot et recevoir des actualités de Piki&nbsp;&amp;&nbsp;Co autour de Biumiz,
+          contacté·e pour la remise du lot et recevoir des actualités de Piki&nbsp;&amp;&nbsp;Co autour de Ki-tämi,
           de l'éducation, de la parentalité et des compétences humaines.
         </p>
         <p>
@@ -170,7 +170,7 @@ import BVictory from '@assets/BiumizVictory.webp';
 
           <div class="explicative-text">
             <p>
-              Remplissez ce formulaire pour tenter de gagner un abonnement à Biumiz ou un poster exclusif de
+              Remplissez ce formulaire pour tenter de gagner un abonnement à Ki-tämi ou un poster exclusif de
               l'univers du jeu.
             </p>
           </div>
@@ -411,7 +411,7 @@ import BVictory from '@assets/BiumizVictory.webp';
 		position: absolute;
 		left: 0;
 		top: 0;
-		color: var(--dark-yellow); /* Utilise le jaune de votre charte graphique Biumiz */
+		color: var(--dark-yellow); /* Utilise le jaune de votre charte graphique Ki-tämi */
 		font-weight: 900; /* Rend la coche un peu plus épaisse */
 		font-size: 1.2rem;
 	}

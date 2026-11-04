@@ -42,38 +42,4 @@ tarteaucitron.init({
   "cookieExpire":      182
 });
 
-
-// Service de mesure d'audience
-tarteaucitron.services.matomoCustom = {
-  "key":         "matomoCustom",
-  "type":        "analytic",
-  "name":        "Matomo (mesure d'audience)",
-  "uri":         "/legal/cookies",
-  "needConsent": true,
-  "cookies":     ["_pk_id", "_pk_ses", "_pk_ref", "mtm_consent", "mtm_cookie_consent", "SRVGROUP"],
-
-  "js": function () {
-    "use strict";
-    if (tarteaucitron.services.matomoCustom.added) return;
-    tarteaucitron.services.matomoCustom.added = true;
-
-    var _paq = window._paq = window._paq || [];
-    var u = "https://an.kjbconseil.com/";
-    _paq.push(["setTrackerUrl", u + "matomo.php"]);
-    _paq.push(["setSiteId", "6"]);
-    _paq.push(["setCookieDomain", "*.piki-and-co.com"]);
-    _paq.push(["setDomains", ["*.piki-and-co.com"]]);
-    _paq.push(["trackPageView"]);
-    _paq.push(["enableLinkTracking"]);
-
-    tarteaucitron.addScript(u + "matomo.js");
-  },
-
-  "fallback": function () {
-    "use strict";
-    /* Rien à faire en cas de refus */
-  }
-};
-(tarteaucitron.job = tarteaucitron.job || []).push("matomoCustom");
-
 // Services futurs possibles à ajouter ci-dessous comme Google Analytics / Facebook Pixel / etc.

@@ -1,5 +1,5 @@
 ---
-title: "Piki & Co présente Biumiz à Ludovia"
+title: "Piki & Co présente Ki-tämi à Ludovia"
 description: "Cet événement nous a offert une opportunité unique de rencontrer, d’échanger et de présenter notre prototype directement aux enseignants du premier degré" 
 pubDate: 2026-09-02
 author: "L'équipe Piki & Co"
@@ -25,7 +25,7 @@ Leurs retours d’expérience sont indispensables pour valider et améliorer nos
 
 ## Retours positifs ! 
 Les enseignants avec lesquels nous avons échangé ont tous été enthousiastes tant sur le fond (narration, scénario d'éveil aux langues, etc.) que sur la forme (jeu sur tablette, cahier d'accompagnement, jeu de plateau ou jeu de carte). 
-Un grand merci pour leurs retours qui nous donnent de l'énergie et nous permette d'avancer et d'enrichir notre jeu Biumiz ! 
+Un grand merci pour leurs retours qui nous donnent de l'énergie et nous permettre d'avancer et d'enrichir notre jeu Biumiz ! 
 
 ## Rencontrer les éditeurs scolaires et acteur des EdTech
 Au-delà du monde de l’enseignement, Ludovia constitue un carrefour incontournable pour les éditeurs scolaires et les acteurs de l’EdTech. 

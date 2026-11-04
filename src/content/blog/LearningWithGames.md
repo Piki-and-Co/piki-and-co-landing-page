@@ -3,11 +3,11 @@ title: "Le jeu, le meilleur vecteur d'apprentissage"
 description: "Le jeu, moyen ultime d’apprendre : il engage dans une expérience sensorielle et émotionnelle ce qui favorise l’acquisition et le développement de compétences."
 pubDate: 2026-06-01
 author: "L'équipe Piki & Co"
-tags: ["jeu", "apprentissage", "science", "biumiz"]
+tags: ["jeu", "apprentissage", "science", "ki-tämi"]
 draft: false
-image: "/blog/BiumizAccueil.png"
+image: "/blog/KitamiAccueil.png"
 ---
-![Le jeu, meilleur vecteur d'apprentissage](./BiumizAccueil.png)
+![Le jeu, meilleur vecteur d'apprentissage](KitamiAccueil.png)
 *Illustration: Charlotte Gahmia*
 
 ## Le jeu, un vecteur d'apprentissage puissant

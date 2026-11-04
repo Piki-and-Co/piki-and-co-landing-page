@@ -5,9 +5,9 @@ pubDate: 2026-07-20
 author: "L'équipe Piki & Co"
 tags: ["Jeu", "Apprentissage", "Enfants"]
 draft: false
-image: "/blog/NightshadedDecorChambreBiumizClair.jpg"
+image: "/blog/NightshadedDecorChambreKitamiClair.jpg"
 ---
-![La chambre de Biumiz, comme si on se trouvait à l'intérieur](./NightshadedDecorChambreBiumizClair.jpg)
+![La chambre de Ki-tämi, comme si on se trouvait à l'intérieur](NightshadedDecorChambreKitamiClair.jpg)
 *Illustration : Wren Davies (Moon.tokkym)*
 
 ## Quand le virtuel devient un moteur d'apprentissage

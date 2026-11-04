@@ -8,7 +8,7 @@ export async function GET(context: APIContext) {
 
   return rss({
     title: 'Blog Piki & Co',
-    description: "Actualités, science et coulisses de l'aventure Piki & Co et Biumiz.",
+    description: "Actualités, science et coulisses de l'aventure Piki & Co et Ki-tämi.",
     site: context.site!,
     items: posts.map((post) => ({
       title: post.data.title,
