@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import { Image } from 'astro:assets';
 import logoPiki from '@assets/logo.webp';
 import logoKitamiLight from '@assets/KITAMIlogoLIGHT.webp';
+import logoKitamiDark from '@assets/KITAMIlogoDARK.webp';
 
 import biovalley from '@assets/MembreBiovalley.webp';
 import frenchTech from '@assets/Logo_FT_Est_Blanc.webp';
@@ -16,7 +17,7 @@ import lesDeepTech from 'assets/LesDeeptech_Blanc.webp';
 import unistra from '@assets/Unistra2_HD_FondBlanc.webp';
 
 import photoAmandine from '@assets/PhotoAmandine.webp';
-import photoKevin from '@assets/PhotoKevin.webp';
+import photoAlex from '@assets/PhotoAlex.webp';
 import photoOlivier from '@assets/PhotoOlivier.webp';
 import photoLaurence from '@assets/PhotoLaurence.webp';
 import photoYannick from '@assets/PhotoYannick.webp';
@@ -42,24 +43,24 @@ const team = [
 		photo: photoLaurence
 	},
 	{
-		prenom: "Kevin",
-		nom: "Blenner",
+		prenom: "Alexandre",
+		nom: "Richard",
 		poste: "Directeur technique (CTO)",
-		description: "Ingénieur en développement logiciel expérimenté, il définit et pilot la stratégie technologique.",
-		photo: photoKevin
+		description: "Définit et pilote la stratégie technologique.",
+		photo: photoAlex
 		},
 	{
 		prenom: "Olivier",
 		nom: "Luet",
 		poste: "Directeur marketing (CMO) B2B",
-		description: "Responsable du développement commercial secteur B2B & éducatif",
+		description: "Responsable du développement commercial secteur B2B & éducatif.",
 		photo: photoOlivier
 		},
 		{
 		prenom: "Yannick",
 		nom: "Imhoff",
 		poste: "Directeur marketing (CMO) B2C",
-		description: "Responsable du développement commercial secteur B2C & jeu vidéo",
+		description: "Responsable du développement commercial secteur B2C & jeu vidéo.",
 		photo: photoYannick
 		}
 ];
@@ -78,10 +79,10 @@ const personSchemas = [
     linkedin: "https://www.linkedin.com/in/laurence-schmoll-38b226149/",
   },
   {
-    name: "Kevin Blenner",
+    name: "Alexandre Richard",
     jobTitle: "Directeur technique (CTO)",
-    photo: "PhotoKevin.webp",
-    linkedin: "https://www.linkedin.com/in/kevinblenner/",
+    photo: "PhotoAlex.webp",
+    linkedin: "https://www.linkedin.com/in/alexrichard/",
   },
   {
     name: "Olivier Luet",
@@ -225,14 +226,14 @@ description="Accompagnez votre enfant dans le développement de ses compétences
 					<li>Jeux vidéo narratif et immersif</li>
 					<li>Contenus adaptés à l'âge et aux besoins de l'enfant</li>
 					<li>Tableau de bord de l'adulte pour suivre les progrès</li>
-					<li>Soutien et coaching de l'adulte pour accompanger l'enfant</li>
+					<li>Soutien et coaching de l'adulte pour accompagner l'enfant</li>
 					<li>Jeux de société pour prolonger l'expérience dans le réel</li>
 					<li>Sans publicité, sans achat intégré</li>
 				</ul>
 				<a href="https://ki-tami.com" class="btn btn-primary" style="margin-top: 1.5rem;">En savoir plus</a>
 			</div>
 			<div class="product-image">
-				<Image src={logoKitamiLight} alt="Ki-tämi" width={661} height={1014} loading="eager" format="webp"/>
+				<Image src={logoKitamiDark} alt="Ki-tämi" width={965} height={465} loading="eager" format="webp"/>
 			</div>
 		</div>
 	</section>
